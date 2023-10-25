@@ -1,4 +1,4 @@
-# La Battaille du Dé (Dice Wars) - Mini Projet C++
+# La Bataille du Dé (Dice Wars) - Mini Projet C++
 <!-- Add the logo https://cdn.discordapp.com/attachments/1027222800991264768/1166662662000758794/file-4iKrJPU559BDTFfh6rFDcGoq.jpg?ex=654b4e46&is=6538d946&hm=41e76bcb57c079e00eb1dcc2ae7c63e539aac1793286f4dc02095c1e0dbf28aa& -->
 
 ![DiceWars logo for the project](https://cdn.discordapp.com/attachments/1027222800991264768/1166662662000758794/file-4iKrJPU559BDTFfh6rFDcGoq.jpg?ex=654b4e46&is=6538d946&hm=41e76bcb57c079e00eb1dcc2ae7c63e539aac1793286f4dc02095c1e0dbf28aa&)
