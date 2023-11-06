@@ -20,3 +20,5 @@ La Bataille du Dé est un jeu de stratégie au tour par tour. Le but du jeu est 
 
 - Romain PIPON romain.pipon@etu.univ-nantes.fr
 - Théo LE BAIL theo.le-bail@etu.univ-nantes.fr
+- Thomas LEBRETON thomas.lebreton1@etu.univ-nantes.fr
+- Léo BRIGARDIS leo.brigardis@etu.univ-nantes.fr
