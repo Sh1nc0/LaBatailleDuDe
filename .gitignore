@@ -149,3 +149,11 @@ Temporary Items
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,clion
 .vscode
+
+
+.vs 
+bin
+temp
+resstats.txt
+*.vcxproj.user
+*.user 
