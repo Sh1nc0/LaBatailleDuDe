@@ -152,7 +152,6 @@ Temporary Items
 
 
 .vs 
-bin
 temp
 resstats.txt
 *.vcxproj.user
