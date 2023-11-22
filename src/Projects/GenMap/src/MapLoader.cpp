@@ -1,18 +1,40 @@
 #include "MapLoader.h"
 #include "DefaultMap.h"
+#include "FastNoiseLite.h"
 
 SRegions* MapLoader::GenerateMap(unsigned int& r, unsigned int& c)
 {
-	Regions regions;
-	LoadDefaultMap(regions);
-	unsigned int nbR, nbC;
-	SRegions* sregions = ConvertMap(regions, nbR, nbC);
-	r = nbR;
-	c = nbC;
+    Regions regions;
+    regions.clear();
+    srand(time(NULL));
+    FastNoiseLite noise;
+    noise.SetNoiseType(FastNoiseLite::NoiseType_Cellular);
+    noise.SetFrequency(0.2f);
+    noise.SetSeed(rand() % 1000 + 1);
+    noise.SetCellularDistanceFunction(FastNoiseLite::CellularDistanceFunction_Manhattan);
+    noise.SetCellularReturnType(FastNoiseLite::CellularReturnType_CellValue);
 
-	Maps.insert(sregions);
+    std::map<float, std::vector<std::pair<unsigned, unsigned>>> m;
+    for (int x = 0; x < r; x++){
+        for (int y = 0; y < c; y++){
+            float n = noise.GetNoise((float)x, (float)y);
+            if (m.find(n) == m.end()) m[n].push_back({x,y});
+            m[n].push_back({ x,y });
+        }
+    }
 
-	return(sregions);
+    for(auto it : m){
+        if(it.second.size() > 6)
+        regions.push_back(it.second);
+    }
+    unsigned int nbR, nbC;
+    SRegions* sregions = ConvertMap(regions, nbR, nbC);
+    r = nbR;
+    c = nbC;
+
+    Maps.insert(sregions);
+
+    return(sregions);
 }
 
 void MapLoader::DeleteMap(SRegions* regions)
