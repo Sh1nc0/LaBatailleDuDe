@@ -1,4 +1,6 @@
 #include "MapLoader.h"
+#include <ctime>
+#include <map>
 #include "DefaultMap.h"
 #include "FastNoiseLite.h"
 
