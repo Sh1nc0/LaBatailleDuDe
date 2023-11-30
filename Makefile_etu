@@ -1,4 +1,4 @@
-PROJECTS := GenMap StrategyDummy
+PROJECTS := GenMap Strategy
 
 ifdef debug
 	DIR = linux/debug
