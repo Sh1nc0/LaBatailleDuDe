@@ -21,17 +21,11 @@
     <ClCompile Include="src\StaticMapGenerator.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="src\DefaultMap.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="src\MapLoader.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\DefaultMap.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="src\MapLoader.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
