@@ -17,12 +17,19 @@ image: ghcr.io/cnescatlab/cppcheck:latest
 # This specific template is located at:
 # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Getting-Started.gitlab-ci.yml
 
-stages:          # List of stages for jobs, and their order of execution
+stages: # List of stages for jobs, and their order of execution
   - static-code-analysis
-
+  - memory-leaks-analysis
 
 cppcheck:
   stage: static-code-analysis
   allow_failure: true
   script:
     - cppcheck --enable=all --error-exitcode=1 .
+
+valgrind:
+  stage: memory-leaks-analysis
+  allow_failure: false
+  script:
+    - make runtester debug=1
+    - valgrind bin/linux/debug/maptester_d -m bin/linux/debug/genmap_d.so
