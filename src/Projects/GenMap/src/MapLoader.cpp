@@ -1,7 +1,6 @@
 #include "MapLoader.h"
 #include <ctime>
 #include <map>
-#include "DefaultMap.h"
 #include "FastNoiseLite.h"
 
 SRegions* MapLoader::GenerateMap(unsigned int& r, unsigned int& c)
@@ -11,7 +10,7 @@ SRegions* MapLoader::GenerateMap(unsigned int& r, unsigned int& c)
     srand(time(NULL));
     FastNoiseLite noise;
     noise.SetNoiseType(FastNoiseLite::NoiseType_Cellular);
-    noise.SetFrequency(0.2f);
+    noise.SetFrequency(0.25f);
     noise.SetSeed(rand() % 1000 + 1);
     noise.SetCellularDistanceFunction(FastNoiseLite::CellularDistanceFunction_Manhattan);
     noise.SetCellularReturnType(FastNoiseLite::CellularReturnType_CellValue);
@@ -20,7 +19,6 @@ SRegions* MapLoader::GenerateMap(unsigned int& r, unsigned int& c)
     for (int x = 0; x < r; x++){
         for (int y = 0; y < c; y++){
             float n = noise.GetNoise((float)x, (float)y);
-            if (m.find(n) == m.end()) m[n].push_back({x,y});
             m[n].push_back({ x,y });
         }
     }

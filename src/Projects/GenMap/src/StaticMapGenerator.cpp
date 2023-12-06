@@ -1,6 +1,5 @@
 #include "interface_lib.h"
 #include "MapLoader.h"
-#include "DefaultMap.h"
 
 API_EXPORT void InitMap(SInfo* info)
 {

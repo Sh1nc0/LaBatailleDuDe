@@ -94,7 +94,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\DefaultMap.cpp" />
     <ClCompile Include="src\MapLoader.cpp" />
     <ClCompile Include="src\StaticMapGenerator.cpp" />
   </ItemGroup>
@@ -102,7 +101,6 @@
     <ClInclude Include="..\..\Commun\IInfoLib.h" />
     <ClInclude Include="..\..\Commun\IMapLib.h" />
     <ClInclude Include="..\..\Commun\library.h" />
-    <ClInclude Include="src\DefaultMap.h" />
     <ClInclude Include="src\FastNoiseLite.h" />
     <ClInclude Include="src\interface_lib.h" />
     <ClInclude Include="src\MapLoader.h" />
