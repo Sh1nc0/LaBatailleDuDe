@@ -10,18 +10,19 @@
 #include <set>
 #include <algorithm>
 
-int getNbComposantes(const float* m, unsigned int r, unsigned int c)
+int getNbComposantes(const Regions& region, const float* m, unsigned int r, unsigned int c)
 {
     std::map<float, std::set<float>> connexion;
-    for (unsigned int i = 0; i < r; ++i){
-	    for (unsigned int j = 0; j < c; ++j){
-            float value = m[(i * r) + j];
+    for (auto cells : region)
+    {
+		for(auto cell : cells){
+            float value = m[(cell.first * r) + cell.second];
             if(connexion.find(value) == connexion.end()){
                 std::pair<float, std::set<float>> pair;
                 pair.first = value;
                 connexion.insert(pair);
             }
-            for(auto voisin : Voisin(i,j))
+            for(auto voisin : Voisin(cell.first,cell.second))
             {
                 if (voisin.first < 0 || voisin.second < 0 || (voisin.first>= r) || (voisin.second >= c)) continue;
                 float valueNeighbor = m[(voisin.first * r) + voisin.second];
@@ -97,6 +98,7 @@ int getNbComposantes(const float* m, unsigned int r, unsigned int c)
 }
 
 
+
 // Déclaration du type Regions
 
 void LoadNoiseMap(Regions& regions, unsigned int r, unsigned int c) {
@@ -109,7 +111,6 @@ void LoadNoiseMap(Regions& regions, unsigned int r, unsigned int c) {
 	noise.SetSeed(rand() % 1000 + 1);
 	noise.SetCellularDistanceFunction(FastNoiseLite::CellularDistanceFunction_Manhattan);
 	noise.SetCellularReturnType(FastNoiseLite::CellularReturnType_CellValue);
-
 	std::map<float, std::vector<std::pair<unsigned, unsigned>>> m;
 
 
@@ -122,11 +123,25 @@ void LoadNoiseMap(Regions& regions, unsigned int r, unsigned int c) {
 			m[n].push_back({ x,y });
 		}
 	}
-
-	std::cout << "nb composantes :" << getNbComposantes(cellToRegionId, r, c) << std::endl;
-
 	for (auto it : m) {
-		if (it.second.size() > 10) regions.push_back(it.second);
+		regions.push_back(it.second);
+	}
+	std::cout << "nb composantes :" << getNbComposantes(regions, cellToRegionId, r, c) << std::endl;
+	std::sort(regions.begin(), regions.end(), [](std::vector <std::pair<unsigned int, unsigned int>>& a, std::vector<std::pair<unsigned int, unsigned int>>& b) {
+		return a.size() < b.size();
+	});
+
+
+	int offset = 0;
+	//todo stopé la boucle quand le ratio case vide case plein est bon
+	for (int i = 0; i < 30; ++i){
+		auto region = regions[offset];
+		regions.erase(regions.begin() + offset);
+		if(getNbComposantes(regions, cellToRegionId, r,c) != 1)
+		{
+			regions.push_back(region);
+			break;
+		}
 	}
 }
 
