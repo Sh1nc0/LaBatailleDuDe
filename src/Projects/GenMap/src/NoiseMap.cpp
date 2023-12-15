@@ -99,8 +99,6 @@ int getNbComposantes(const Regions& region, const float* m, unsigned int r, unsi
 
 
 
-// Déclaration du type Regions
-
 void LoadNoiseMap(Regions& regions, unsigned int r, unsigned int c) {
 	regions.clear();
 	srand(static_cast<unsigned int>(time(NULL))); // Seed pour la génération aléatoire
@@ -126,7 +124,8 @@ void LoadNoiseMap(Regions& regions, unsigned int r, unsigned int c) {
 	for (auto it : m) {
 		regions.push_back(it.second);
 	}
-	std::cout << "nb composantes :" << getNbComposantes(regions, cellToRegionId, r, c) << std::endl;
+
+
 	std::sort(regions.begin(), regions.end(), [](std::vector <std::pair<unsigned int, unsigned int>>& a, std::vector<std::pair<unsigned int, unsigned int>>& b) {
 		return a.size() < b.size();
 	});
@@ -143,6 +142,8 @@ void LoadNoiseMap(Regions& regions, unsigned int r, unsigned int c) {
 			break;
 		}
 	}
+	std::cout << "nb composantes :" << getNbComposantes(regions, cellToRegionId, r, c) << std::endl;
+	delete[] cellToRegionId;
 }
 
 
