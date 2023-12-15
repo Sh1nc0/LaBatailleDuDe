@@ -95,6 +95,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\MapLoader.cpp" />
+    <ClCompile Include="src\NoiseMap.cpp" />
     <ClCompile Include="src\StaticMapGenerator.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +105,9 @@
     <ClInclude Include="src\FastNoiseLite.h" />
     <ClInclude Include="src\interface_lib.h" />
     <ClInclude Include="src\MapLoader.h" />
+    <ClInclude Include="src\NoiseMap.h" />
+    <ClInclude Include="src\Voisin.h" />
+    <ClInclude Include="src\VoisinIterator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
