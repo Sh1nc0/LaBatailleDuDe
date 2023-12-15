@@ -1,43 +1,28 @@
 #include "MapLoader.h"
-#include <ctime>
-#include <map>
-#include "FastNoiseLite.h"
+#include "NoiseMap.h"
 
 SRegions* MapLoader::GenerateMap(unsigned int& r, unsigned int& c)
 {
-    Regions regions;
-    regions.clear();
-    srand(time(NULL));
-    FastNoiseLite noise;
-    noise.SetNoiseType(FastNoiseLite::NoiseType_Cellular);
-    noise.SetFrequency(0.25f);
-    noise.SetSeed(rand() % 1000 + 1);
-    noise.SetCellularDistanceFunction(FastNoiseLite::CellularDistanceFunction_Manhattan);
-    noise.SetCellularReturnType(FastNoiseLite::CellularReturnType_CellValue);
+	Regions regions;
+	//LoadDefaultMap(regions);
+	LoadNoiseMap(regions, r, c);
+	unsigned int nbR, nbC;
+	SRegions* sregions = ConvertMap(regions, nbR, nbC);
+	r = nbR;
+	c = nbC;
 
-    std::map<float, std::vector<std::pair<unsigned, unsigned>>> m;
-    for (int x = 0; x < r; x++){
-        for (int y = 0; y < c; y++){
-            float n = noise.GetNoise((float)x, (float)y);
-            m[n].push_back({ x,y });
-        }
-    }
+	Maps.insert(sregions);
 
-    for(auto it : m){
-        if(it.second.size() > 6)
-        regions.push_back(it.second);
-    }
-    unsigned int nbR, nbC;
-    SRegions* sregions = ConvertMap(regions, nbR, nbC);
-    r = nbR;
-    c = nbC;
-
-    Maps.insert(sregions);
-
-    return(sregions);
+	return(sregions);
 }
 
 void MapLoader::DeleteMap(SRegions* regions)
+{
+	Maps.erase(regions);
+	DeleteMapWithoutSet(regions);
+}
+
+void MapLoader::DeleteMapWithoutSet(SRegions* regions)
 {
 	for (unsigned int i = 0; i < regions->nbRegions; ++i)
 	{
@@ -61,8 +46,8 @@ SRegions* MapLoader::ConvertMap(Regions& regions, unsigned int& nbR, unsigned in
 		reg->region[i].cells = new SRegionCell[reg->region[i].nbCells];
 		for (unsigned int j = 0; j < reg->region[i].nbCells; ++j)
 		{
-			if (nbR < regions[i][j].first) nbR = regions[i][j].first;
-			if (nbC < regions[i][j].second) nbC = regions[i][j].second;
+			if (nbR <= regions[i][j].first) nbR = regions[i][j].first + 1;
+			if (nbC <= regions[i][j].second) nbC = regions[i][j].second + 1;
 			reg->region[i].cells[j].y = regions[i][j].first;
 			reg->region[i].cells[j].x = regions[i][j].second;
 		}

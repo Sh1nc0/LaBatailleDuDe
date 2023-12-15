@@ -17,6 +17,7 @@ public:
 
 private:
 	SRegions* ConvertMap(Regions& regions, unsigned int& nbR, unsigned int& nbC);
+	void DeleteMapWithoutSet(SRegions* regions);
 
 private:
 	std::set<SRegions*> Maps;
