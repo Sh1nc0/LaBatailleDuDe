@@ -3,8 +3,11 @@
 
 API_EXPORT void InitMap(SInfo* info)
 {
-	info->SetName("Default map");
-	info->AddMember("Fabien Picarougne");
+	info->SetName("Noise map");
+	info->AddMember("LEBRETON Thomas");
+	info->AddMember("LE BAIL Théo");
+	info->AddMember("PIPON Romain");
+	info->AddMember("BRIGARDIS Léo");
 }
 
 API_EXPORT IMap* MapFactory()
