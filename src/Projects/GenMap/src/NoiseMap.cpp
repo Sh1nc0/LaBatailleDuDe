@@ -96,7 +96,17 @@ int getNbComposantes(const Regions& region, const float* m, unsigned int r, unsi
 	for (auto compToDel : composantes) delete compToDel;
 	return nbComposantes;
 }
-
+float getRatioEmptyCell(const Regions& region, const float* m, unsigned int r, unsigned int c)
+{
+	int nbEmptyCell=0;
+	for (auto cells : region){
+		for (auto cell : cells){
+			float value = m[(cell.first * r) + cell.second];
+			if (value == 0) nbEmptyCell++;
+		}
+	}
+	return (float)nbEmptyCell / (float)(r * c);
+}
 
 
 void LoadNoiseMap(Regions& regions, unsigned int r, unsigned int c) {
@@ -133,7 +143,7 @@ void LoadNoiseMap(Regions& regions, unsigned int r, unsigned int c) {
 
 	int offset = 0;
 	//todo stopé la boucle quand le ratio case vide case plein est bon
-	for (int i = 0; i < 30; ++i){
+	while (getRatioEmptyCell(regions, cellToRegionId, r, c) < 0.5f){
 		auto region = regions[offset];
 		regions.erase(regions.begin() + offset);
 		if(getNbComposantes(regions, cellToRegionId, r,c) != 1)
