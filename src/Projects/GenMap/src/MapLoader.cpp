@@ -4,7 +4,8 @@
 SRegions* MapLoader::GenerateMap(unsigned int& r, unsigned int& c)
 {
 	Regions regions;
-	LoadNoiseMap(regions, r, c);
+	NoiseMap *map = new NoiseMap(r, c);
+	regions = map->getRegions();
 	unsigned int nbR, nbC;
 	SRegions* sregions = ConvertMap(regions, nbR, nbC);
 	r = nbR;
