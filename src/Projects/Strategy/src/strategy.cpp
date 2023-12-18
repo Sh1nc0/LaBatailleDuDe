@@ -7,7 +7,7 @@ API_EXPORT void InitStrategy(SInfo* info)
 	std::cout << "InitStrategy" << std::endl;
 
 	// ATTENTION NE PAS UTILISER D'ACCENT DANS LES CHAINES DE CARACTERES
-	info->SetName("Strategie simple");
+	info->SetName("Strategie BigBoy");
 	info->AddMember("Theo LE BAIL");
 	info->AddMember("Thomas LEBRETON");
 	info->AddMember("Romain PIPON");
@@ -29,7 +29,7 @@ API_EXPORT void StrategyDelete(IStrategy* obj)
 void Strategy::InitGame(unsigned int id, unsigned int nbPlayer, const SMap* map)
 {
 	if (Current) delete Current;
-	Current = new StrategyDummy(id, nbPlayer, map);
+	Current = new StrategieTest(id, nbPlayer, map);
 }
 
 bool Strategy::PlayTurn(unsigned int gameTurn, const SGameState *state, STurn *turn)

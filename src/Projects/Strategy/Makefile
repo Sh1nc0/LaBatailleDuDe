@@ -1,4 +1,4 @@
-BINNAME := strategydummy
+BINNAME := strategytest
 BINEXT := so
 
 # directories
