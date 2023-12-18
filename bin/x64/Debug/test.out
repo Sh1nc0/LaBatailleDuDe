@@ -1,0 +1,8225 @@
+------------------------------------------
+--- MapTester
+
+Type de libraire : 'Map'
+Nom de la libraire : 'Noise map'
+Nom du membre #1 : 'LEBRETON Thomas'
+Nom du membre #2 : 'LE BAIL Th├®o'
+Nom du membre #3 : 'PIPON Romain'
+Nom du membre #4 : 'BRIGARDIS L├®o'
+
+
+--- test #1
+
+## Demande de g├®n├®ration d'une carte de 39 lignes et 57 colonnes
+NoiseMap created nb: 113
+Ratio empty: 11.0211
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #2
+
+## Demande de g├®n├®ration d'une carte de 43 lignes et 52 colonnes
+NoiseMap created nb: 113
+Ratio empty: 10.1521
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #3
+
+## Demande de g├®n├®ration d'une carte de 45 lignes et 35 colonnes
+NoiseMap created nb: 84
+Ratio empty: 13.6508
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #4
+
+## Demande de g├®n├®ration d'une carte de 40 lignes et 43 colonnes
+NoiseMap created nb: 89
+Ratio empty: 11.3372
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #5
+
+## Demande de g├®n├®ration d'une carte de 34 lignes et 30 colonnes
+NoiseMap created nb: 54
+Ratio empty: 12.3529
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #6
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 60 colonnes
+NoiseMap created nb: 94
+Ratio empty: 11.875
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #7
+
+## Demande de g├®n├®ration d'une carte de 21 lignes et 38 colonnes
+NoiseMap created nb: 43
+Ratio empty: 11.9048
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #8
+
+## Demande de g├®n├®ration d'une carte de 44 lignes et 41 colonnes
+NoiseMap created nb: 92
+Ratio empty: 11.4191
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #9
+
+## Demande de g├®n├®ration d'une carte de 40 lignes et 29 colonnes
+NoiseMap created nb: 62
+Ratio empty: 14.8276
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #10
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 56 colonnes
+NoiseMap created nb: 115
+Ratio empty: 9.14116
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #11
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 43 colonnes
+NoiseMap created nb: 57
+Ratio empty: 13.1485
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #12
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 38 colonnes
+NoiseMap created nb: 50
+Ratio empty: 13.3603
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #13
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 32 colonnes
+NoiseMap created nb: 46
+Ratio empty: 16.3462
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #14
+
+## Demande de g├®n├®ration d'une carte de 41 lignes et 57 colonnes
+NoiseMap created nb: 116
+Ratio empty: 11.6389
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #15
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 29 colonnes
+NoiseMap created nb: 40
+Ratio empty: 11.8774
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #16
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 32 colonnes
+NoiseMap created nb: 53
+Ratio empty: 15.0862
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #17
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 58 colonnes
+NoiseMap created nb: 76
+Ratio empty: 14.727
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #18
+
+## Demande de g├®n├®ration d'une carte de 36 lignes et 49 colonnes
+NoiseMap created nb: 88
+Ratio empty: 13.8322
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #19
+
+## Demande de g├®n├®ration d'une carte de 36 lignes et 44 colonnes
+NoiseMap created nb: 79
+Ratio empty: 12.3106
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #20
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 46 colonnes
+NoiseMap created nb: 56
+Ratio empty: 14.1304
+Nb components: 0
+-> Carte g├®n├®r├®e avec 22 lignes et 45 colonnes
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #21
+
+## Demande de g├®n├®ration d'une carte de 35 lignes et 56 colonnes
+NoiseMap created nb: 98
+Ratio empty: 11.0714
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #22
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 31 colonnes
+NoiseMap created nb: 53
+Ratio empty: 15.8065
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #23
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 53 colonnes
+NoiseMap created nb: 81
+Ratio empty: 12.8822
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #24
+
+## Demande de g├®n├®ration d'une carte de 28 lignes et 59 colonnes
+NoiseMap created nb: 83
+Ratio empty: 9.92736
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #25
+
+## Demande de g├®n├®ration d'une carte de 48 lignes et 51 colonnes
+NoiseMap created nb: 119
+Ratio empty: 9.92647
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #26
+
+## Demande de g├®n├®ration d'une carte de 50 lignes et 36 colonnes
+NoiseMap created nb: 91
+Ratio empty: 9.77778
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #27
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 35 colonnes
+NoiseMap created nb: 48
+Ratio empty: 10.8995
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #28
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 34 colonnes
+NoiseMap created nb: 74
+Ratio empty: 13.0252
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #29
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 31 colonnes
+NoiseMap created nb: 77
+Ratio empty: 11.0501
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #30
+
+## Demande de g├®n├®ration d'une carte de 38 lignes et 57 colonnes
+NoiseMap created nb: 107
+Ratio empty: 10.157
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #31
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 41 colonnes
+NoiseMap created nb: 86
+Ratio empty: 11.0337
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #32
+
+## Demande de g├®n├®ration d'une carte de 50 lignes et 37 colonnes
+NoiseMap created nb: 92
+Ratio empty: 10.7568
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #33
+
+## Demande de g├®n├®ration d'une carte de 33 lignes et 34 colonnes
+NoiseMap created nb: 56
+Ratio empty: 12.2995
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #34
+
+## Demande de g├®n├®ration d'une carte de 33 lignes et 33 colonnes
+NoiseMap created nb: 56
+Ratio empty: 13.6823
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #35
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 38 colonnes
+NoiseMap created nb: 57
+Ratio empty: 10.6171
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #36
+
+## Demande de g├®n├®ration d'une carte de 44 lignes et 53 colonnes
+NoiseMap created nb: 119
+Ratio empty: 11.5352
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #37
+
+## Demande de g├®n├®ration d'une carte de 18 lignes et 44 colonnes
+NoiseMap created nb: 41
+Ratio empty: 12.2475
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #38
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 47 colonnes
+NoiseMap created nb: 72
+Ratio empty: 13.0594
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #39
+
+## Demande de g├®n├®ration d'une carte de 48 lignes et 52 colonnes
+NoiseMap created nb: 124
+Ratio empty: 10.4968
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #40
+
+## Demande de g├®n├®ration d'une carte de 15 lignes et 42 colonnes
+NoiseMap created nb: 35
+Ratio empty: 13.0159
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #41
+
+## Demande de g├®n├®ration d'une carte de 39 lignes et 25 colonnes
+NoiseMap created nb: 56
+Ratio empty: 13.641
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #42
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 27 colonnes
+NoiseMap created nb: 61
+Ratio empty: 14.1975
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #43
+
+## Demande de g├®n├®ration d'une carte de 34 lignes et 37 colonnes
+NoiseMap created nb: 63
+Ratio empty: 12.6391
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #44
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 57 colonnes
+NoiseMap created nb: 53
+Ratio empty: 13.1579
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #45
+
+## Demande de g├®n├®ration d'une carte de 36 lignes et 58 colonnes
+NoiseMap created nb: 104
+Ratio empty: 11.7337
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #46
+
+## Demande de g├®n├®ration d'une carte de 15 lignes et 33 colonnes
+NoiseMap created nb: 30
+Ratio empty: 15.5556
+Nb components: 0
+-> Carte g├®n├®r├®e avec 15 lignes et 32 colonnes
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #47
+
+## Demande de g├®n├®ration d'une carte de 48 lignes et 55 colonnes
+NoiseMap created nb: 129
+Ratio empty: 10.303
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #48
+
+## Demande de g├®n├®ration d'une carte de 33 lignes et 49 colonnes
+NoiseMap created nb: 80
+Ratio empty: 11.5646
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #49
+
+## Demande de g├®n├®ration d'une carte de 34 lignes et 29 colonnes
+NoiseMap created nb: 50
+Ratio empty: 13.4888
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #50
+
+## Demande de g├®n├®ration d'une carte de 33 lignes et 44 colonnes
+NoiseMap created nb: 71
+Ratio empty: 10.5372
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #51
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 32 colonnes
+NoiseMap created nb: 62
+Ratio empty: 14.2736
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #52
+
+## Demande de g├®n├®ration d'une carte de 19 lignes et 45 colonnes
+NoiseMap created nb: 45
+Ratio empty: 8.77193
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #53
+
+## Demande de g├®n├®ration d'une carte de 28 lignes et 57 colonnes
+NoiseMap created nb: 80
+Ratio empty: 9.96241
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #54
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 44 colonnes
+NoiseMap created nb: 69
+Ratio empty: 14.2424
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #55
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 26 colonnes
+NoiseMap created nb: 32
+Ratio empty: 14.1608
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #56
+
+## Demande de g├®n├®ration d'une carte de 31 lignes et 43 colonnes
+NoiseMap created nb: 69
+Ratio empty: 12.9032
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #57
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 46 colonnes
+NoiseMap created nb: 108
+Ratio empty: 10.9158
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #58
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 28 colonnes
+NoiseMap created nb: 47
+Ratio empty: 16.3095
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #59
+
+## Demande de g├®n├®ration d'une carte de 43 lignes et 54 colonnes
+NoiseMap created nb: 115
+Ratio empty: 10.0775
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #60
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 47 colonnes
+NoiseMap created nb: 64
+Ratio empty: 15.2209
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #61
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 42 colonnes
+NoiseMap created nb: 65
+Ratio empty: 13.9683
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #62
+
+## Demande de g├®n├®ration d'une carte de 50 lignes et 37 colonnes
+NoiseMap created nb: 92
+Ratio empty: 10.7568
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #63
+
+## Demande de g├®n├®ration d'une carte de 35 lignes et 46 colonnes
+NoiseMap created nb: 82
+Ratio empty: 12.9814
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #64
+
+## Demande de g├®n├®ration d'une carte de 23 lignes et 40 colonnes
+NoiseMap created nb: 48
+Ratio empty: 13.6957
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #65
+
+## Demande de g├®n├®ration d'une carte de 15 lignes et 41 colonnes
+NoiseMap created nb: 34
+Ratio empty: 12.5203
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #66
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 53 colonnes
+NoiseMap created nb: 85
+Ratio empty: 13.4434
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #67
+
+## Demande de g├®n├®ration d'une carte de 44 lignes et 42 colonnes
+NoiseMap created nb: 94
+Ratio empty: 11.4177
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #68
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 41 colonnes
+NoiseMap created nb: 55
+Ratio empty: 9.93677
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #69
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 33 colonnes
+NoiseMap created nb: 55
+Ratio empty: 18.3838
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #70
+
+## Demande de g├®n├®ration d'une carte de 49 lignes et 31 colonnes
+NoiseMap created nb: 80
+Ratio empty: 10.5332
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #71
+
+## Demande de g├®n├®ration d'une carte de 48 lignes et 53 colonnes
+NoiseMap created nb: 125
+Ratio empty: 10.4953
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #72
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 54 colonnes
+NoiseMap created nb: 65
+Ratio empty: 12.8788
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #73
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 45 colonnes
+NoiseMap created nb: 94
+Ratio empty: 11.0582
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #74
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 54 colonnes
+NoiseMap created nb: 72
+Ratio empty: 14.892
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #75
+
+## Demande de g├®n├®ration d'une carte de 38 lignes et 43 colonnes
+NoiseMap created nb: 81
+Ratio empty: 9.91432
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #76
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 41 colonnes
+NoiseMap created nb: 73
+Ratio empty: 12.5247
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #77
+
+## Demande de g├®n├®ration d'une carte de 15 lignes et 41 colonnes
+NoiseMap created nb: 34
+Ratio empty: 12.5203
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #78
+
+## Demande de g├®n├®ration d'une carte de 20 lignes et 36 colonnes
+NoiseMap created nb: 39
+Ratio empty: 10.8333
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #79
+
+## Demande de g├®n├®ration d'une carte de 33 lignes et 42 colonnes
+NoiseMap created nb: 66
+Ratio empty: 10.0289
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #80
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 27 colonnes
+NoiseMap created nb: 61
+Ratio empty: 14.1975
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #81
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 52 colonnes
+NoiseMap created nb: 71
+Ratio empty: 14.984
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #82
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 29 colonnes
+NoiseMap created nb: 39
+Ratio empty: 12.6437
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #83
+
+## Demande de g├®n├®ration d'une carte de 15 lignes et 32 colonnes
+NoiseMap created nb: 29
+Ratio empty: 12.9167
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #84
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 51 colonnes
+NoiseMap created nb: 62
+Ratio empty: 13.2799
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #85
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 53 colonnes
+NoiseMap created nb: 123
+Ratio empty: 10.2369
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #86
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 55 colonnes
+NoiseMap created nb: 52
+Ratio empty: 12.9545
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #87
+
+## Demande de g├®n├®ration d'une carte de 20 lignes et 50 colonnes
+NoiseMap created nb: 55
+Ratio empty: 13.6
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #88
+
+## Demande de g├®n├®ration d'une carte de 18 lignes et 39 colonnes
+NoiseMap created nb: 36
+Ratio empty: 11.396
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #89
+
+## Demande de g├®n├®ration d'une carte de 18 lignes et 45 colonnes
+NoiseMap created nb: 43
+Ratio empty: 11.8519
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #90
+
+## Demande de g├®n├®ration d'une carte de 28 lignes et 28 colonnes
+NoiseMap created nb: 41
+Ratio empty: 11.6071
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #91
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 48 colonnes
+NoiseMap created nb: 76
+Ratio empty: 15.625
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #92
+
+## Demande de g├®n├®ration d'une carte de 19 lignes et 60 colonnes
+NoiseMap created nb: 59
+Ratio empty: 8.94737
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #93
+
+## Demande de g├®n├®ration d'une carte de 49 lignes et 54 colonnes
+NoiseMap created nb: 131
+Ratio empty: 10.2419
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #94
+
+## Demande de g├®n├®ration d'une carte de 15 lignes et 59 colonnes
+NoiseMap created nb: 51
+Ratio empty: 13.5593
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #95
+
+## Demande de g├®n├®ration d'une carte de 25 lignes et 27 colonnes
+NoiseMap created nb: 37
+Ratio empty: 16.7407
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #96
+
+## Demande de g├®n├®ration d'une carte de 44 lignes et 40 colonnes
+NoiseMap created nb: 90
+Ratio empty: 11.875
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #97
+
+## Demande de g├®n├®ration d'une carte de 44 lignes et 32 colonnes
+NoiseMap created nb: 76
+Ratio empty: 12.8551
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #98
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 37 colonnes
+NoiseMap created nb: 60
+Ratio empty: 14.6115
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #99
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 39 colonnes
+NoiseMap created nb: 53
+Ratio empty: 10.2564
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #100
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 49 colonnes
+NoiseMap created nb: 65
+Ratio empty: 15.5612
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #101
+
+## Demande de g├®n├®ration d'une carte de 49 lignes et 57 colonnes
+NoiseMap created nb: 135
+Ratio empty: 9.02256
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #102
+
+## Demande de g├®n├®ration d'une carte de 43 lignes et 37 colonnes
+NoiseMap created nb: 80
+Ratio empty: 10.9994
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #103
+
+## Demande de g├®n├®ration d'une carte de 33 lignes et 45 colonnes
+NoiseMap created nb: 73
+Ratio empty: 9.96633
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #104
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 51 colonnes
+NoiseMap created nb: 77
+Ratio empty: 12.3732
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #105
+
+## Demande de g├®n├®ration d'une carte de 38 lignes et 30 colonnes
+NoiseMap created nb: 60
+Ratio empty: 12.3684
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #106
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 46 colonnes
+NoiseMap created nb: 56
+Ratio empty: 14.1304
+Nb components: 0
+-> Carte g├®n├®r├®e avec 22 lignes et 45 colonnes
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #107
+
+## Demande de g├®n├®ration d'une carte de 28 lignes et 44 colonnes
+NoiseMap created nb: 60
+Ratio empty: 11.1201
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #108
+
+## Demande de g├®n├®ration d'une carte de 45 lignes et 35 colonnes
+NoiseMap created nb: 84
+Ratio empty: 13.6508
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #109
+
+## Demande de g├®n├®ration d'une carte de 17 lignes et 29 colonnes
+NoiseMap created nb: 30
+Ratio empty: 18.8641
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #110
+
+## Demande de g├®n├®ration d'une carte de 21 lignes et 51 colonnes
+NoiseMap created nb: 59
+Ratio empty: 13.0719
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #111
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 38 colonnes
+NoiseMap created nb: 80
+Ratio empty: 11.2782
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #112
+
+## Demande de g├®n├®ration d'une carte de 45 lignes et 29 colonnes
+NoiseMap created nb: 69
+Ratio empty: 13.4866
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #113
+
+## Demande de g├®n├®ration d'une carte de 49 lignes et 30 colonnes
+NoiseMap created nb: 78
+Ratio empty: 12.1088
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #114
+
+## Demande de g├®n├®ration d'une carte de 19 lignes et 45 colonnes
+NoiseMap created nb: 45
+Ratio empty: 8.77193
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #115
+
+## Demande de g├®n├®ration d'une carte de 35 lignes et 39 colonnes
+NoiseMap created nb: 69
+Ratio empty: 11.7216
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #116
+
+## Demande de g├®n├®ration d'une carte de 18 lignes et 49 colonnes
+NoiseMap created nb: 48
+Ratio empty: 12.6984
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #117
+
+## Demande de g├®n├®ration d'une carte de 15 lignes et 46 colonnes
+NoiseMap created nb: 40
+Ratio empty: 14.4928
+Nb components: 0
+-> Carte g├®n├®r├®e avec 15 lignes et 45 colonnes
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #118
+
+## Demande de g├®n├®ration d'une carte de 28 lignes et 52 colonnes
+NoiseMap created nb: 76
+Ratio empty: 11.3324
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #119
+
+## Demande de g├®n├®ration d'une carte de 17 lignes et 56 colonnes
+NoiseMap created nb: 53
+Ratio empty: 12.8151
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #120
+
+## Demande de g├®n├®ration d'une carte de 18 lignes et 41 colonnes
+NoiseMap created nb: 38
+Ratio empty: 10.8401
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #121
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 37 colonnes
+NoiseMap created nb: 79
+Ratio empty: 12.4196
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #122
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 47 colonnes
+NoiseMap created nb: 100
+Ratio empty: 11.5502
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #123
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 56 colonnes
+NoiseMap created nb: 87
+Ratio empty: 11.9643
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #124
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 29 colonnes
+NoiseMap created nb: 54
+Ratio empty: 13.4203
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #125
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 55 colonnes
+NoiseMap created nb: 127
+Ratio empty: 9.98066
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #126
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 32 colonnes
+NoiseMap created nb: 46
+Ratio empty: 12.8472
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #127
+
+## Demande de g├®n├®ration d'une carte de 25 lignes et 32 colonnes
+NoiseMap created nb: 46
+Ratio empty: 14.5
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #128
+
+## Demande de g├®n├®ration d'une carte de 44 lignes et 58 colonnes
+NoiseMap created nb: 129
+Ratio empty: 11.1285
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #129
+
+## Demande de g├®n├®ration d'une carte de 28 lignes et 30 colonnes
+NoiseMap created nb: 44
+Ratio empty: 9.64286
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #130
+
+## Demande de g├®n├®ration d'une carte de 38 lignes et 37 colonnes
+NoiseMap created nb: 71
+Ratio empty: 12.4467
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #131
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 60 colonnes
+NoiseMap created nb: 70
+Ratio empty: 11.1364
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #132
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 55 colonnes
+NoiseMap created nb: 52
+Ratio empty: 12.9545
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #133
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 55 colonnes
+NoiseMap created nb: 89
+Ratio empty: 12.2159
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #134
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 57 colonnes
+NoiseMap created nb: 103
+Ratio empty: 11.0953
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #135
+
+## Demande de g├®n├®ration d'une carte de 31 lignes et 27 colonnes
+NoiseMap created nb: 45
+Ratio empty: 15.4122
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #136
+
+## Demande de g├®n├®ration d'une carte de 50 lignes et 40 colonnes
+NoiseMap created nb: 98
+Ratio empty: 10.3
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #137
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 28 colonnes
+NoiseMap created nb: 64
+Ratio empty: 14.2007
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #138
+
+## Demande de g├®n├®ration d'une carte de 36 lignes et 33 colonnes
+NoiseMap created nb: 62
+Ratio empty: 15.1515
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #139
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 40 colonnes
+NoiseMap created nb: 60
+Ratio empty: 12.4138
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #140
+
+## Demande de g├®n├®ration d'une carte de 36 lignes et 49 colonnes
+NoiseMap created nb: 88
+Ratio empty: 13.8322
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #141
+
+## Demande de g├®n├®ration d'une carte de 44 lignes et 52 colonnes
+NoiseMap created nb: 119
+Ratio empty: 11.5822
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #142
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 57 colonnes
+NoiseMap created nb: 67
+Ratio empty: 11.6427
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #143
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 29 colonnes
+NoiseMap created nb: 54
+Ratio empty: 13.4203
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #144
+
+## Demande de g├®n├®ration d'une carte de 44 lignes et 33 colonnes
+NoiseMap created nb: 70
+Ratio empty: 7.30028
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #145
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 50 colonnes
+NoiseMap created nb: 118
+Ratio empty: 8.85106
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #146
+
+## Demande de g├®n├®ration d'une carte de 41 lignes et 28 colonnes
+NoiseMap created nb: 59
+Ratio empty: 5.31359
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #147
+
+## Demande de g├®n├®ration d'une carte de 40 lignes et 30 colonnes
+NoiseMap created nb: 63
+Ratio empty: 8.75
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #148
+
+## Demande de g├®n├®ration d'une carte de 49 lignes et 57 colonnes
+NoiseMap created nb: 134
+Ratio empty: 7.48299
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #149
+
+## Demande de g├®n├®ration d'une carte de 23 lignes et 35 colonnes
+NoiseMap created nb: 43
+Ratio empty: 10.9317
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #150
+
+## Demande de g├®n├®ration d'une carte de 38 lignes et 29 colonnes
+NoiseMap created nb: 56
+Ratio empty: 8.16697
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #151
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 45 colonnes
+NoiseMap created nb: 69
+Ratio empty: 11.8774
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #152
+
+## Demande de g├®n├®ration d'une carte de 49 lignes et 53 colonnes
+NoiseMap created nb: 127
+Ratio empty: 7.54717
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #153
+
+## Demande de g├®n├®ration d'une carte de 17 lignes et 25 colonnes
+NoiseMap created nb: 23
+Ratio empty: 13.1765
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #154
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 39 colonnes
+NoiseMap created nb: 45
+Ratio empty: 11.0723
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #155
+
+## Demande de g├®n├®ration d'une carte de 35 lignes et 43 colonnes
+NoiseMap created nb: 74
+Ratio empty: 8.43854
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #156
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 28 colonnes
+NoiseMap created nb: 60
+Ratio empty: 7.05782
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #157
+
+## Demande de g├®n├®ration d'une carte de 21 lignes et 41 colonnes
+NoiseMap created nb: 46
+Ratio empty: 13.3566
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #158
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 25 colonnes
+NoiseMap created nb: 55
+Ratio empty: 8.38095
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #159
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 38 colonnes
+NoiseMap created nb: 44
+Ratio empty: 9.689
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #160
+
+## Demande de g├®n├®ration d'une carte de 45 lignes et 36 colonnes
+NoiseMap created nb: 82
+Ratio empty: 8.7037
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #161
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 54 colonnes
+NoiseMap created nb: 61
+Ratio empty: 11.3636
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #162
+
+## Demande de g├®n├®ration d'une carte de 49 lignes et 43 colonnes
+NoiseMap created nb: 102
+Ratio empty: 6.97674
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #163
+
+## Demande de g├®n├®ration d'une carte de 36 lignes et 40 colonnes
+NoiseMap created nb: 72
+Ratio empty: 11.1111
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #164
+
+## Demande de g├®n├®ration d'une carte de 50 lignes et 53 colonnes
+NoiseMap created nb: 128
+Ratio empty: 7.73585
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #165
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 54 colonnes
+NoiseMap created nb: 87
+Ratio empty: 9.08565
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #166
+
+## Demande de g├®n├®ration d'une carte de 19 lignes et 58 colonnes
+NoiseMap created nb: 58
+Ratio empty: 8.16697
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #167
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 54 colonnes
+NoiseMap created nb: 100
+Ratio empty: 9.35936
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #168
+
+## Demande de g├®n├®ration d'une carte de 15 lignes et 34 colonnes
+NoiseMap created nb: 29
+Ratio empty: 10.3922
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #169
+
+## Demande de g├®n├®ration d'une carte de 17 lignes et 25 colonnes
+NoiseMap created nb: 23
+Ratio empty: 13.1765
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #170
+
+## Demande de g├®n├®ration d'une carte de 35 lignes et 54 colonnes
+NoiseMap created nb: 94
+Ratio empty: 9.89418
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #171
+
+## Demande de g├®n├®ration d'une carte de 40 lignes et 53 colonnes
+NoiseMap created nb: 107
+Ratio empty: 7.35849
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #172
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 26 colonnes
+NoiseMap created nb: 37
+Ratio empty: 9.1716
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #173
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 60 colonnes
+NoiseMap created nb: 54
+Ratio empty: 12.3958
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #174
+
+## Demande de g├®n├®ration d'une carte de 17 lignes et 28 colonnes
+NoiseMap created nb: 25
+Ratio empty: 9.2437
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #175
+
+## Demande de g├®n├®ration d'une carte de 41 lignes et 40 colonnes
+NoiseMap created nb: 83
+Ratio empty: 8.23171
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #176
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 59 colonnes
+NoiseMap created nb: 95
+Ratio empty: 8.20975
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #177
+
+## Demande de g├®n├®ration d'une carte de 19 lignes et 25 colonnes
+NoiseMap created nb: 27
+Ratio empty: 8.42105
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #178
+
+## Demande de g├®n├®ration d'une carte de 19 lignes et 60 colonnes
+NoiseMap created nb: 61
+Ratio empty: 7.80702
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #179
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 44 colonnes
+NoiseMap created nb: 56
+Ratio empty: 10.7955
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #180
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 58 colonnes
+NoiseMap created nb: 119
+Ratio empty: 8.49754
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #181
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 38 colonnes
+NoiseMap created nb: 48
+Ratio empty: 11.1842
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #182
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 36 colonnes
+NoiseMap created nb: 52
+Ratio empty: 12.7572
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #183
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 57 colonnes
+NoiseMap created nb: 76
+Ratio empty: 8.29959
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #184
+
+## Demande de g├®n├®ration d'une carte de 50 lignes et 37 colonnes
+NoiseMap created nb: 91
+Ratio empty: 9.56757
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #185
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 40 colonnes
+NoiseMap created nb: 61
+Ratio empty: 13.7931
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #186
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 52 colonnes
+NoiseMap created nb: 77
+Ratio empty: 11.0743
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #187
+
+## Demande de g├®n├®ration d'une carte de 40 lignes et 60 colonnes
+NoiseMap created nb: 119
+Ratio empty: 7.45833
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #188
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 57 colonnes
+NoiseMap created nb: 131
+Ratio empty: 7.57745
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #189
+
+## Demande de g├®n├®ration d'une carte de 39 lignes et 36 colonnes
+NoiseMap created nb: 70
+Ratio empty: 8.97436
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #190
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 43 colonnes
+NoiseMap created nb: 66
+Ratio empty: 9.6124
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #191
+
+## Demande de g├®n├®ration d'une carte de 21 lignes et 41 colonnes
+NoiseMap created nb: 46
+Ratio empty: 13.3566
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #192
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 26 colonnes
+NoiseMap created nb: 64
+Ratio empty: 7.11948
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #193
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 37 colonnes
+NoiseMap created nb: 79
+Ratio empty: 8.81596
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #194
+
+## Demande de g├®n├®ration d'une carte de 25 lignes et 31 colonnes
+NoiseMap created nb: 44
+Ratio empty: 13.5484
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #195
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 51 colonnes
+NoiseMap created nb: 119
+Ratio empty: 8.46892
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #196
+
+## Demande de g├®n├®ration d'une carte de 45 lignes et 26 colonnes
+NoiseMap created nb: 60
+Ratio empty: 7.60684
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #197
+
+## Demande de g├®n├®ration d'une carte de 15 lignes et 33 colonnes
+NoiseMap created nb: 27
+Ratio empty: 14.5455
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #198
+
+## Demande de g├®n├®ration d'une carte de 23 lignes et 44 colonnes
+NoiseMap created nb: 54
+Ratio empty: 8.20158
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #199
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 51 colonnes
+NoiseMap created nb: 67
+Ratio empty: 9.12519
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #200
+
+## Demande de g├®n├®ration d'une carte de 36 lignes et 53 colonnes
+NoiseMap created nb: 96
+Ratio empty: 9.64361
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #201
+
+## Demande de g├®n├®ration d'une carte de 23 lignes et 54 colonnes
+NoiseMap created nb: 65
+Ratio empty: 11.1916
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #202
+
+## Demande de g├®n├®ration d'une carte de 20 lignes et 28 colonnes
+NoiseMap created nb: 31
+Ratio empty: 11.25
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #203
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 48 colonnes
+NoiseMap created nb: 70
+Ratio empty: 10.2623
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #204
+
+## Demande de g├®n├®ration d'une carte de 19 lignes et 33 colonnes
+NoiseMap created nb: 35
+Ratio empty: 12.1212
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #205
+
+## Demande de g├®n├®ration d'une carte de 23 lignes et 56 colonnes
+NoiseMap created nb: 68
+Ratio empty: 7.91925
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #206
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 26 colonnes
+NoiseMap created nb: 37
+Ratio empty: 9.1716
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #207
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 34 colonnes
+NoiseMap created nb: 50
+Ratio empty: 10.5664
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #208
+
+## Demande de g├®n├®ration d'une carte de 34 lignes et 57 colonnes
+NoiseMap created nb: 96
+Ratio empty: 8.72033
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #209
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 53 colonnes
+NoiseMap created nb: 125
+Ratio empty: 8.47049
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #210
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 34 colonnes
+NoiseMap created nb: 47
+Ratio empty: 8.37104
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #211
+
+## Demande de g├®n├®ration d'une carte de 35 lignes et 49 colonnes
+NoiseMap created nb: 85
+Ratio empty: 9.38776
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #212
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 32 colonnes
+NoiseMap created nb: 52
+Ratio empty: 9.47266
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #213
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 47 colonnes
+NoiseMap created nb: 41
+Ratio empty: 10.6383
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #214
+
+## Demande de g├®n├®ration d'une carte de 28 lignes et 60 colonnes
+NoiseMap created nb: 87
+Ratio empty: 11.5476
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #215
+
+## Demande de g├®n├®ration d'une carte de 45 lignes et 27 colonnes
+NoiseMap created nb: 62
+Ratio empty: 9.46502
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #216
+
+## Demande de g├®n├®ration d'une carte de 40 lignes et 46 colonnes
+NoiseMap created nb: 91
+Ratio empty: 7.66304
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #217
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 27 colonnes
+NoiseMap created nb: 40
+Ratio empty: 13.4431
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #218
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 34 colonnes
+NoiseMap created nb: 71
+Ratio empty: 6.79272
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #219
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 38 colonnes
+NoiseMap created nb: 61
+Ratio empty: 9.64912
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #220
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 34 colonnes
+NoiseMap created nb: 40
+Ratio empty: 10.4278
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #221
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 49 colonnes
+NoiseMap created nb: 79
+Ratio empty: 7.84439
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #222
+
+## Demande de g├®n├®ration d'une carte de 28 lignes et 59 colonnes
+NoiseMap created nb: 86
+Ratio empty: 11.6828
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #223
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 53 colonnes
+NoiseMap created nb: 61
+Ratio empty: 9.94854
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #224
+
+## Demande de g├®n├®ration d'une carte de 36 lignes et 35 colonnes
+NoiseMap created nb: 66
+Ratio empty: 10.4762
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #225
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 49 colonnes
+NoiseMap created nb: 71
+Ratio empty: 11.867
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #226
+
+## Demande de g├®n├®ration d'une carte de 25 lignes et 47 colonnes
+NoiseMap created nb: 63
+Ratio empty: 9.2766
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #227
+
+## Demande de g├®n├®ration d'une carte de 48 lignes et 47 colonnes
+NoiseMap created nb: 112
+Ratio empty: 6.95922
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #228
+
+## Demande de g├®n├®ration d'une carte de 49 lignes et 47 colonnes
+NoiseMap created nb: 112
+Ratio empty: 7.59878
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #229
+
+## Demande de g├®n├®ration d'une carte de 15 lignes et 50 colonnes
+NoiseMap created nb: 41
+Ratio empty: 7.2
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #230
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 33 colonnes
+NoiseMap created nb: 50
+Ratio empty: 13.3751
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #231
+
+## Demande de g├®n├®ration d'une carte de 43 lignes et 42 colonnes
+NoiseMap created nb: 89
+Ratio empty: 8.47176
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #232
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 37 colonnes
+NoiseMap created nb: 51
+Ratio empty: 9.14761
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #233
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 26 colonnes
+NoiseMap created nb: 34
+Ratio empty: 14.7436
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #234
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 45 colonnes
+NoiseMap created nb: 69
+Ratio empty: 11.8774
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #235
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 33 colonnes
+NoiseMap created nb: 50
+Ratio empty: 13.3751
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #236
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 37 colonnes
+NoiseMap created nb: 43
+Ratio empty: 9.82801
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #237
+
+## Demande de g├®n├®ration d'une carte de 25 lignes et 56 colonnes
+NoiseMap created nb: 74
+Ratio empty: 9.07143
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #238
+
+## Demande de g├®n├®ration d'une carte de 45 lignes et 48 colonnes
+NoiseMap created nb: 108
+Ratio empty: 6.38889
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #239
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 43 colonnes
+NoiseMap created nb: 62
+Ratio empty: 10.9388
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #240
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 43 colonnes
+NoiseMap created nb: 54
+Ratio empty: 10.562
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #241
+
+## Demande de g├®n├®ration d'une carte de 33 lignes et 46 colonnes
+NoiseMap created nb: 76
+Ratio empty: 8.43215
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #242
+
+## Demande de g├®n├®ration d'une carte de 45 lignes et 59 colonnes
+NoiseMap created nb: 132
+Ratio empty: 7.60829
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #243
+
+## Demande de g├®n├®ration d'une carte de 17 lignes et 51 colonnes
+NoiseMap created nb: 44
+Ratio empty: 10.1499
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #244
+
+## Demande de g├®n├®ration d'une carte de 46 lignes et 34 colonnes
+NoiseMap created nb: 79
+Ratio empty: 5.43478
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #245
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 41 colonnes
+NoiseMap created nb: 47
+Ratio empty: 10.7539
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #246
+
+## Demande de g├®n├®ration d'une carte de 20 lignes et 42 colonnes
+NoiseMap created nb: 47
+Ratio empty: 12.7381
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #247
+
+## Demande de g├®n├®ration d'une carte de 28 lignes et 46 colonnes
+NoiseMap created nb: 67
+Ratio empty: 11.8789
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #248
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 29 colonnes
+NoiseMap created nb: 27
+Ratio empty: 13.1466
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #249
+
+## Demande de g├®n├®ration d'une carte de 45 lignes et 54 colonnes
+NoiseMap created nb: 119
+Ratio empty: 7.57202
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #250
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 38 colonnes
+NoiseMap created nb: 60
+Ratio empty: 11.9782
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #251
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 52 colonnes
+NoiseMap created nb: 58
+Ratio empty: 8.65385
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #252
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 39 colonnes
+NoiseMap created nb: 62
+Ratio empty: 11.2821
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #253
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 47 colonnes
+NoiseMap created nb: 76
+Ratio empty: 6.64894
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #254
+
+## Demande de g├®n├®ration d'une carte de 33 lignes et 39 colonnes
+NoiseMap created nb: 66
+Ratio empty: 8.23621
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #255
+
+## Demande de g├®n├®ration d'une carte de 34 lignes et 47 colonnes
+NoiseMap created nb: 79
+Ratio empty: 9.199
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #256
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 42 colonnes
+NoiseMap created nb: 58
+Ratio empty: 11.2637
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #257
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 30 colonnes
+NoiseMap created nb: 28
+Ratio empty: 14.375
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #258
+
+## Demande de g├®n├®ration d'une carte de 18 lignes et 37 colonnes
+NoiseMap created nb: 35
+Ratio empty: 7.35736
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #259
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 55 colonnes
+NoiseMap created nb: 102
+Ratio empty: 8.15725
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #260
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 27 colonnes
+NoiseMap created nb: 59
+Ratio empty: 10.6702
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #261
+
+## Demande de g├®n├®ration d'une carte de 25 lignes et 39 colonnes
+NoiseMap created nb: 54
+Ratio empty: 12.1026
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #262
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 51 colonnes
+NoiseMap created nb: 76
+Ratio empty: 8.95425
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #263
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 27 colonnes
+NoiseMap created nb: 40
+Ratio empty: 13.4431
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #264
+
+## Demande de g├®n├®ration d'une carte de 40 lignes et 47 colonnes
+NoiseMap created nb: 94
+Ratio empty: 7.23404
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #265
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 42 colonnes
+NoiseMap created nb: 54
+Ratio empty: 12.3016
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #266
+
+## Demande de g├®n├®ration d'une carte de 46 lignes et 43 colonnes
+NoiseMap created nb: 98
+Ratio empty: 5.7634
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #267
+
+## Demande de g├®n├®ration d'une carte de 35 lignes et 34 colonnes
+NoiseMap created nb: 59
+Ratio empty: 6.80672
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #268
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 27 colonnes
+NoiseMap created nb: 40
+Ratio empty: 13.4431
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #269
+
+## Demande de g├®n├®ration d'une carte de 43 lignes et 30 colonnes
+NoiseMap created nb: 66
+Ratio empty: 8.44961
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #270
+
+## Demande de g├®n├®ration d'une carte de 35 lignes et 28 colonnes
+NoiseMap created nb: 49
+Ratio empty: 6.42857
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #271
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 26 colonnes
+NoiseMap created nb: 40
+Ratio empty: 10.9687
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #272
+
+## Demande de g├®n├®ration d'une carte de 48 lignes et 45 colonnes
+NoiseMap created nb: 108
+Ratio empty: 7.87037
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #273
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 49 colonnes
+NoiseMap created nb: 62
+Ratio empty: 12.7551
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #274
+
+## Demande de g├®n├®ration d'une carte de 21 lignes et 49 colonnes
+NoiseMap created nb: 55
+Ratio empty: 15.5491
+Nb components: 0
+-> Carte g├®n├®r├®e avec 21 lignes et 48 colonnes
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #275
+
+## Demande de g├®n├®ration d'une carte de 35 lignes et 46 colonnes
+NoiseMap created nb: 79
+Ratio empty: 9.75155
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #276
+
+## Demande de g├®n├®ration d'une carte de 41 lignes et 50 colonnes
+NoiseMap created nb: 102
+Ratio empty: 7.12195
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #277
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 40 colonnes
+NoiseMap created nb: 61
+Ratio empty: 13.7931
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #278
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 30 colonnes
+NoiseMap created nb: 76
+Ratio empty: 8.43972
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #279
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 33 colonnes
+NoiseMap created nb: 37
+Ratio empty: 12.6722
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #280
+
+## Demande de g├®n├®ration d'une carte de 34 lignes et 39 colonnes
+NoiseMap created nb: 67
+Ratio empty: 9.57768
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #281
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 27 colonnes
+NoiseMap created nb: 24
+Ratio empty: 18.287
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #282
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 53 colonnes
+NoiseMap created nb: 100
+Ratio empty: 8.1591
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #283
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 28 colonnes
+NoiseMap created nb: 43
+Ratio empty: 7.85714
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #284
+
+## Demande de g├®n├®ration d'une carte de 44 lignes et 25 colonnes
+NoiseMap created nb: 57
+Ratio empty: 8.63636
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #285
+
+## Demande de g├®n├®ration d'une carte de 41 lignes et 33 colonnes
+NoiseMap created nb: 66
+Ratio empty: 6.13452
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #286
+
+## Demande de g├®n├®ration d'une carte de 17 lignes et 29 colonnes
+NoiseMap created nb: 27
+Ratio empty: 9.93915
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #287
+
+## Demande de g├®n├®ration d'une carte de 48 lignes et 40 colonnes
+NoiseMap created nb: 97
+Ratio empty: 8.22917
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #288
+
+## Demande de g├®n├®ration d'une carte de 17 lignes et 31 colonnes
+NoiseMap created nb: 28
+Ratio empty: 14.0417
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #289
+
+## Demande de g├®n├®ration d'une carte de 34 lignes et 56 colonnes
+NoiseMap created nb: 95
+Ratio empty: 9.34874
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #290
+
+## Demande de g├®n├®ration d'une carte de 46 lignes et 28 colonnes
+NoiseMap created nb: 66
+Ratio empty: 5.04658
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #291
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 49 colonnes
+NoiseMap created nb: 79
+Ratio empty: 7.84439
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #292
+
+## Demande de g├®n├®ration d'une carte de 34 lignes et 29 colonnes
+NoiseMap created nb: 52
+Ratio empty: 9.12779
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #293
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 45 colonnes
+NoiseMap created nb: 74
+Ratio empty: 7.29167
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #294
+
+## Demande de g├®n├®ration d'une carte de 49 lignes et 34 colonnes
+NoiseMap created nb: 82
+Ratio empty: 6.48259
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #295
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 37 colonnes
+NoiseMap created nb: 33
+Ratio empty: 11.4865
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #296
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 38 colonnes
+NoiseMap created nb: 72
+Ratio empty: 8.6771
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #297
+
+## Demande de g├®n├®ration d'une carte de 43 lignes et 44 colonnes
+NoiseMap created nb: 93
+Ratio empty: 7.13531
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #298
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 59 colonnes
+NoiseMap created nb: 95
+Ratio empty: 8.20975
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #299
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 40 colonnes
+NoiseMap created nb: 35
+Ratio empty: 12.6563
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #300
+
+## Demande de g├®n├®ration d'une carte de 19 lignes et 53 colonnes
+NoiseMap created nb: 55
+Ratio empty: 8.2423
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #301
+
+## Demande de g├®n├®ration d'une carte de 38 lignes et 44 colonnes
+NoiseMap created nb: 83
+Ratio empty: 7.53589
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #302
+
+## Demande de g├®n├®ration d'une carte de 43 lignes et 43 colonnes
+NoiseMap created nb: 89
+Ratio empty: 7.24716
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #303
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 34 colonnes
+NoiseMap created nb: 55
+Ratio empty: 5.51471
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #304
+
+## Demande de g├®n├®ration d'une carte de 38 lignes et 58 colonnes
+NoiseMap created nb: 106
+Ratio empty: 7.89474
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #305
+
+## Demande de g├®n├®ration d'une carte de 18 lignes et 34 colonnes
+NoiseMap created nb: 33
+Ratio empty: 8.66013
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #306
+
+## Demande de g├®n├®ration d'une carte de 20 lignes et 49 colonnes
+NoiseMap created nb: 54
+Ratio empty: 13.2653
+Nb components: 0
+-> Carte g├®n├®r├®e avec 20 lignes et 48 colonnes
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #307
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 50 colonnes
+NoiseMap created nb: 44
+Ratio empty: 10.5
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #308
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 50 colonnes
+NoiseMap created nb: 81
+Ratio empty: 7.125
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #309
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 34 colonnes
+NoiseMap created nb: 53
+Ratio empty: 12.069
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #310
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 60 colonnes
+NoiseMap created nb: 96
+Ratio empty: 8.33333
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #311
+
+## Demande de g├®n├®ration d'une carte de 46 lignes et 47 colonnes
+NoiseMap created nb: 109
+Ratio empty: 6.01295
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #312
+
+## Demande de g├®n├®ration d'une carte de 17 lignes et 58 colonnes
+NoiseMap created nb: 51
+Ratio empty: 11.4604
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #313
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 25 colonnes
+NoiseMap created nb: 38
+Ratio empty: 8.88889
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #314
+
+## Demande de g├®n├®ration d'une carte de 15 lignes et 32 colonnes
+NoiseMap created nb: 27
+Ratio empty: 15.8333
+Nb components: 0
+-> Carte g├®n├®r├®e avec 15 lignes et 31 colonnes
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #315
+
+## Demande de g├®n├®ration d'une carte de 36 lignes et 52 colonnes
+NoiseMap created nb: 90
+Ratio empty: 9.45513
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #316
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 56 colonnes
+NoiseMap created nb: 115
+Ratio empty: 8.12075
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #317
+
+## Demande de g├®n├®ration d'une carte de 45 lignes et 41 colonnes
+NoiseMap created nb: 92
+Ratio empty: 7.53387
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #318
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 49 colonnes
+NoiseMap created nb: 79
+Ratio empty: 7.84439
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #319
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 58 colonnes
+NoiseMap created nb: 106
+Ratio empty: 7.82852
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #320
+
+## Demande de g├®n├®ration d'une carte de 46 lignes et 44 colonnes
+NoiseMap created nb: 103
+Ratio empty: 5.63241
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #321
+
+## Demande de g├®n├®ration d'une carte de 34 lignes et 47 colonnes
+NoiseMap created nb: 79
+Ratio empty: 9.199
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #322
+
+## Demande de g├®n├®ration d'une carte de 31 lignes et 38 colonnes
+NoiseMap created nb: 61
+Ratio empty: 9.93209
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #323
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 54 colonnes
+NoiseMap created nb: 48
+Ratio empty: 14.2361
+Nb components: 0
+-> Carte g├®n├®r├®e avec 16 lignes et 53 colonnes
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #324
+
+## Demande de g├®n├®ration d'une carte de 45 lignes et 29 colonnes
+NoiseMap created nb: 67
+Ratio empty: 6.74329
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #325
+
+## Demande de g├®n├®ration d'une carte de 28 lignes et 48 colonnes
+NoiseMap created nb: 71
+Ratio empty: 11.3095
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #326
+
+## Demande de g├®n├®ration d'une carte de 20 lignes et 35 colonnes
+NoiseMap created nb: 40
+Ratio empty: 14.7143
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #327
+
+## Demande de g├®n├®ration d'une carte de 21 lignes et 47 colonnes
+NoiseMap created nb: 53
+Ratio empty: 12.6646
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #328
+
+## Demande de g├®n├®ration d'une carte de 23 lignes et 43 colonnes
+NoiseMap created nb: 52
+Ratio empty: 7.98787
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #329
+
+## Demande de g├®n├®ration d'une carte de 17 lignes et 47 colonnes
+NoiseMap created nb: 41
+Ratio empty: 9.7622
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #330
+
+## Demande de g├®n├®ration d'une carte de 31 lignes et 57 colonnes
+NoiseMap created nb: 89
+Ratio empty: 9.90379
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #331
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 60 colonnes
+NoiseMap created nb: 75
+Ratio empty: 10.6944
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #332
+
+## Demande de g├®n├®ration d'une carte de 49 lignes et 47 colonnes
+NoiseMap created nb: 112
+Ratio empty: 7.59878
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #333
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 48 colonnes
+NoiseMap created nb: 61
+Ratio empty: 11.1979
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #334
+
+## Demande de g├®n├®ration d'une carte de 21 lignes et 53 colonnes
+NoiseMap created nb: 60
+Ratio empty: 13.8365
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #335
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 37 colonnes
+NoiseMap created nb: 89
+Ratio empty: 8.68315
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #336
+
+## Demande de g├®n├®ration d'une carte de 31 lignes et 47 colonnes
+NoiseMap created nb: 74
+Ratio empty: 9.54015
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #337
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 43 colonnes
+NoiseMap created nb: 38
+Ratio empty: 11.1919
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #338
+
+## Demande de g├®n├®ration d'une carte de 46 lignes et 46 colonnes
+NoiseMap created nb: 106
+Ratio empty: 6.99433
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #339
+
+## Demande de g├®n├®ration d'une carte de 21 lignes et 30 colonnes
+NoiseMap created nb: 35
+Ratio empty: 14.9206
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #340
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 46 colonnes
+NoiseMap created nb: 85
+Ratio empty: 8.46063
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #341
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 33 colonnes
+NoiseMap created nb: 77
+Ratio empty: 7.99484
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #342
+
+## Demande de g├®n├®ration d'une carte de 31 lignes et 42 colonnes
+NoiseMap created nb: 66
+Ratio empty: 11.0599
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #343
+
+## Demande de g├®n├®ration d'une carte de 20 lignes et 48 colonnes
+NoiseMap created nb: 54
+Ratio empty: 11.4583
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #344
+
+## Demande de g├®n├®ration d'une carte de 49 lignes et 28 colonnes
+NoiseMap created nb: 69
+Ratio empty: 6.55977
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #345
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 27 colonnes
+NoiseMap created nb: 44
+Ratio empty: 9.72222
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #346
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 46 colonnes
+NoiseMap created nb: 74
+Ratio empty: 7.54076
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #347
+
+## Demande de g├®n├®ration d'une carte de 19 lignes et 38 colonnes
+NoiseMap created nb: 40
+Ratio empty: 7.20222
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #348
+
+## Demande de g├®n├®ration d'une carte de 48 lignes et 51 colonnes
+NoiseMap created nb: 120
+Ratio empty: 7.39379
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #349
+
+## Demande de g├®n├®ration d'une carte de 44 lignes et 27 colonnes
+NoiseMap created nb: 61
+Ratio empty: 9.68013
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #350
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 56 colonnes
+NoiseMap created nb: 49
+Ratio empty: 10.3795
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #351
+
+## Demande de g├®n├®ration d'une carte de 35 lignes et 49 colonnes
+NoiseMap created nb: 85
+Ratio empty: 9.38776
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #352
+
+## Demande de g├®n├®ration d'une carte de 39 lignes et 49 colonnes
+NoiseMap created nb: 94
+Ratio empty: 9.10518
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #353
+
+## Demande de g├®n├®ration d'une carte de 49 lignes et 56 colonnes
+NoiseMap created nb: 133
+Ratio empty: 7.54373
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #354
+
+## Demande de g├®n├®ration d'une carte de 45 lignes et 35 colonnes
+NoiseMap created nb: 81
+Ratio empty: 7.74603
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #355
+
+## Demande de g├®n├®ration d'une carte de 17 lignes et 48 colonnes
+NoiseMap created nb: 44
+Ratio empty: 10.7843
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #356
+
+## Demande de g├®n├®ration d'une carte de 28 lignes et 31 colonnes
+NoiseMap created nb: 48
+Ratio empty: 15.7834
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #357
+
+## Demande de g├®n├®ration d'une carte de 44 lignes et 57 colonnes
+NoiseMap created nb: 121
+Ratio empty: 6.18022
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #358
+
+## Demande de g├®n├®ration d'une carte de 49 lignes et 30 colonnes
+NoiseMap created nb: 77
+Ratio empty: 9.04762
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #359
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 33 colonnes
+NoiseMap created nb: 47
+Ratio empty: 11.8967
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #360
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 37 colonnes
+NoiseMap created nb: 89
+Ratio empty: 8.68315
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #361
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 52 colonnes
+NoiseMap created nb: 82
+Ratio empty: 6.49038
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #362
+
+## Demande de g├®n├®ration d'une carte de 15 lignes et 51 colonnes
+NoiseMap created nb: 41
+Ratio empty: 7.18954
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #363
+
+## Demande de g├®n├®ration d'une carte de 18 lignes et 50 colonnes
+NoiseMap created nb: 46
+Ratio empty: 7.22222
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #364
+
+## Demande de g├®n├®ration d'une carte de 28 lignes et 29 colonnes
+NoiseMap created nb: 45
+Ratio empty: 11.8227
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #365
+
+## Demande de g├®n├®ration d'une carte de 44 lignes et 36 colonnes
+NoiseMap created nb: 79
+Ratio empty: 8.58586
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #366
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 32 colonnes
+NoiseMap created nb: 50
+Ratio empty: 12.0833
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #367
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 30 colonnes
+NoiseMap created nb: 59
+Ratio empty: 9.72973
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #368
+
+## Demande de g├®n├®ration d'une carte de 18 lignes et 35 colonnes
+NoiseMap created nb: 34
+Ratio empty: 10.4762
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #369
+
+## Demande de g├®n├®ration d'une carte de 43 lignes et 25 colonnes
+NoiseMap created nb: 55
+Ratio empty: 7.34884
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #370
+
+## Demande de g├®n├®ration d'une carte de 40 lignes et 54 colonnes
+NoiseMap created nb: 107
+Ratio empty: 7.87037
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #371
+
+## Demande de g├®n├®ration d'une carte de 46 lignes et 41 colonnes
+NoiseMap created nb: 96
+Ratio empty: 7.10498
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #372
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 49 colonnes
+NoiseMap created nb: 79
+Ratio empty: 7.84439
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #373
+
+## Demande de g├®n├®ration d'une carte de 36 lignes et 25 colonnes
+NoiseMap created nb: 46
+Ratio empty: 8.66667
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #374
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 54 colonnes
+NoiseMap created nb: 67
+Ratio empty: 13.6574
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #375
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 30 colonnes
+NoiseMap created nb: 59
+Ratio empty: 9.72973
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #376
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 35 colonnes
+NoiseMap created nb: 44
+Ratio empty: 13.0952
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #377
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 45 colonnes
+NoiseMap created nb: 70
+Ratio empty: 10
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #378
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 53 colonnes
+NoiseMap created nb: 71
+Ratio empty: 9.79681
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #379
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 40 colonnes
+NoiseMap created nb: 74
+Ratio empty: 9.66216
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #380
+
+## Demande de g├®n├®ration d'une carte de 48 lignes et 52 colonnes
+NoiseMap created nb: 121
+Ratio empty: 7.01122
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #381
+
+## Demande de g├®n├®ration d'une carte de 20 lignes et 60 colonnes
+NoiseMap created nb: 66
+Ratio empty: 10.9167
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #382
+
+## Demande de g├®n├®ration d'une carte de 18 lignes et 46 colonnes
+NoiseMap created nb: 42
+Ratio empty: 7.36715
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #383
+
+## Demande de g├®n├®ration d'une carte de 17 lignes et 25 colonnes
+NoiseMap created nb: 23
+Ratio empty: 13.1765
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #384
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 38 colonnes
+NoiseMap created nb: 60
+Ratio empty: 11.9782
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #385
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 60 colonnes
+NoiseMap created nb: 85
+Ratio empty: 10.1852
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #386
+
+## Demande de g├®n├®ration d'une carte de 43 lignes et 45 colonnes
+NoiseMap created nb: 95
+Ratio empty: 8.63049
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #387
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 43 colonnes
+NoiseMap created nb: 79
+Ratio empty: 7.9824
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #388
+
+## Demande de g├®n├®ration d'une carte de 40 lignes et 33 colonnes
+NoiseMap created nb: 64
+Ratio empty: 7.27273
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #389
+
+## Demande de g├®n├®ration d'une carte de 39 lignes et 54 colonnes
+NoiseMap created nb: 103
+Ratio empty: 8.87939
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #390
+
+## Demande de g├®n├®ration d'une carte de 31 lignes et 55 colonnes
+NoiseMap created nb: 87
+Ratio empty: 9.79472
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #391
+
+## Demande de g├®n├®ration d'une carte de 19 lignes et 34 colonnes
+NoiseMap created nb: 37
+Ratio empty: 9.13313
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #392
+
+## Demande de g├®n├®ration d'une carte de 43 lignes et 36 colonnes
+NoiseMap created nb: 77
+Ratio empty: 9.49612
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #393
+
+## Demande de g├®n├®ration d'une carte de 39 lignes et 39 colonnes
+NoiseMap created nb: 77
+Ratio empty: 7.8238
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #394
+
+## Demande de g├®n├®ration d'une carte de 41 lignes et 51 colonnes
+NoiseMap created nb: 103
+Ratio empty: 6.45624
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #395
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 43 colonnes
+NoiseMap created nb: 54
+Ratio empty: 10.562
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #396
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 41 colonnes
+NoiseMap created nb: 87
+Ratio empty: 8.7108
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #397
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 37 colonnes
+NoiseMap created nb: 61
+Ratio empty: 6.50338
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #398
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 55 colonnes
+NoiseMap created nb: 74
+Ratio empty: 8.74126
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #399
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 53 colonnes
+NoiseMap created nb: 71
+Ratio empty: 9.79681
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #400
+
+## Demande de g├®n├®ration d'une carte de 35 lignes et 36 colonnes
+NoiseMap created nb: 64
+Ratio empty: 9.68254
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #401
+
+## Demande de g├®n├®ration d'une carte de 31 lignes et 32 colonnes
+NoiseMap created nb: 50
+Ratio empty: 11.7944
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #402
+
+## Demande de g├®n├®ration d'une carte de 21 lignes et 39 colonnes
+NoiseMap created nb: 44
+Ratio empty: 14.0415
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #403
+
+## Demande de g├®n├®ration d'une carte de 43 lignes et 41 colonnes
+NoiseMap created nb: 87
+Ratio empty: 7.88429
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #404
+
+## Demande de g├®n├®ration d'une carte de 33 lignes et 32 colonnes
+NoiseMap created nb: 54
+Ratio empty: 9.2803
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #405
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 43 colonnes
+NoiseMap created nb: 101
+Ratio empty: 7.07571
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #406
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 27 colonnes
+NoiseMap created nb: 66
+Ratio empty: 9.06225
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #407
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 57 colonnes
+NoiseMap created nb: 104
+Ratio empty: 7.15979
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #408
+
+## Demande de g├®n├®ration d'une carte de 46 lignes et 30 colonnes
+NoiseMap created nb: 75
+Ratio empty: 7.3913
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #409
+
+## Demande de g├®n├®ration d'une carte de 36 lignes et 49 colonnes
+NoiseMap created nb: 87
+Ratio empty: 10.2041
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #410
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 59 colonnes
+NoiseMap created nb: 109
+Ratio empty: 8.38296
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #411
+
+## Demande de g├®n├®ration d'une carte de 18 lignes et 49 colonnes
+NoiseMap created nb: 46
+Ratio empty: 9.52381
+Nb components: 0
+-> Carte g├®n├®r├®e avec 18 lignes et 48 colonnes
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #412
+
+## Demande de g├®n├®ration d'une carte de 36 lignes et 31 colonnes
+NoiseMap created nb: 58
+Ratio empty: 10.5735
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #413
+
+## Demande de g├®n├®ration d'une carte de 20 lignes et 51 colonnes
+NoiseMap created nb: 54
+Ratio empty: 9.80392
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #414
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 35 colonnes
+NoiseMap created nb: 49
+Ratio empty: 10.4396
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #415
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 45 colonnes
+NoiseMap created nb: 84
+Ratio empty: 9.12913
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #416
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 53 colonnes
+NoiseMap created nb: 71
+Ratio empty: 9.79681
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #417
+
+## Demande de g├®n├®ration d'une carte de 22 lignes et 34 colonnes
+NoiseMap created nb: 40
+Ratio empty: 10.4278
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #418
+
+## Demande de g├®n├®ration d'une carte de 46 lignes et 52 colonnes
+NoiseMap created nb: 118
+Ratio empty: 6.60535
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #419
+
+## Demande de g├®n├®ration d'une carte de 44 lignes et 54 colonnes
+NoiseMap created nb: 115
+Ratio empty: 7.11279
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #420
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 52 colonnes
+NoiseMap created nb: 95
+Ratio empty: 7.90021
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #421
+
+## Demande de g├®n├®ration d'une carte de 43 lignes et 29 colonnes
+NoiseMap created nb: 63
+Ratio empty: 6.89655
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #422
+
+## Demande de g├®n├®ration d'une carte de 34 lignes et 43 colonnes
+NoiseMap created nb: 72
+Ratio empty: 8.82353
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #423
+
+## Demande de g├®n├®ration d'une carte de 34 lignes et 42 colonnes
+NoiseMap created nb: 72
+Ratio empty: 9.59384
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #424
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 30 colonnes
+NoiseMap created nb: 76
+Ratio empty: 8.43972
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #425
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 44 colonnes
+NoiseMap created nb: 56
+Ratio empty: 10.7955
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #426
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 31 colonnes
+NoiseMap created nb: 28
+Ratio empty: 16.9355
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #427
+
+## Demande de g├®n├®ration d'une carte de 21 lignes et 44 colonnes
+NoiseMap created nb: 50
+Ratio empty: 12.4459
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #428
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 45 colonnes
+NoiseMap created nb: 95
+Ratio empty: 9.20635
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #429
+
+## Demande de g├®n├®ration d'une carte de 38 lignes et 48 colonnes
+NoiseMap created nb: 90
+Ratio empty: 7.89474
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #430
+
+## Demande de g├®n├®ration d'une carte de 23 lignes et 41 colonnes
+NoiseMap created nb: 50
+Ratio empty: 8.48356
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #431
+
+## Demande de g├®n├®ration d'une carte de 29 lignes et 25 colonnes
+NoiseMap created nb: 40
+Ratio empty: 12.2759
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #432
+
+## Demande de g├®n├®ration d'une carte de 41 lignes et 51 colonnes
+NoiseMap created nb: 103
+Ratio empty: 6.45624
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #433
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 29 colonnes
+NoiseMap created nb: 56
+Ratio empty: 7.92172
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #434
+
+## Demande de g├®n├®ration d'une carte de 39 lignes et 27 colonnes
+NoiseMap created nb: 53
+Ratio empty: 9.30674
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #435
+
+## Demande de g├®n├®ration d'une carte de 35 lignes et 26 colonnes
+NoiseMap created nb: 47
+Ratio empty: 9.01099
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #436
+
+## Demande de g├®n├®ration d'une carte de 15 lignes et 38 colonnes
+NoiseMap created nb: 31
+Ratio empty: 6.66667
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #437
+
+## Demande de g├®n├®ration d'une carte de 50 lignes et 42 colonnes
+NoiseMap created nb: 102
+Ratio empty: 8.71429
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #438
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 56 colonnes
+NoiseMap created nb: 86
+Ratio empty: 9.16667
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #439
+
+## Demande de g├®n├®ration d'une carte de 33 lignes et 34 colonnes
+NoiseMap created nb: 57
+Ratio empty: 6.32799
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #440
+
+## Demande de g├®n├®ration d'une carte de 23 lignes et 32 colonnes
+NoiseMap created nb: 39
+Ratio empty: 13.1793
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #441
+
+## Demande de g├®n├®ration d'une carte de 45 lignes et 41 colonnes
+NoiseMap created nb: 92
+Ratio empty: 7.53387
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #442
+
+## Demande de g├®n├®ration d'une carte de 23 lignes et 37 colonnes
+NoiseMap created nb: 46
+Ratio empty: 8.81316
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #443
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 35 colonnes
+NoiseMap created nb: 49
+Ratio empty: 10.4396
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #444
+
+## Demande de g├®n├®ration d'une carte de 33 lignes et 52 colonnes
+NoiseMap created nb: 85
+Ratio empty: 7.57576
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #445
+
+## Demande de g├®n├®ration d'une carte de 19 lignes et 46 colonnes
+NoiseMap created nb: 47
+Ratio empty: 7.6659
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #446
+
+## Demande de g├®n├®ration d'une carte de 35 lignes et 56 colonnes
+NoiseMap created nb: 97
+Ratio empty: 8.72449
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #447
+
+## Demande de g├®n├®ration d'une carte de 34 lignes et 55 colonnes
+NoiseMap created nb: 94
+Ratio empty: 9.19786
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #448
+
+## Demande de g├®n├®ration d'une carte de 21 lignes et 33 colonnes
+NoiseMap created nb: 36
+Ratio empty: 17.0274
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #449
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 43 colonnes
+NoiseMap created nb: 54
+Ratio empty: 10.562
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #450
+
+## Demande de g├®n├®ration d'une carte de 32 lignes et 38 colonnes
+NoiseMap created nb: 63
+Ratio empty: 6.99013
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #451
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 51 colonnes
+NoiseMap created nb: 44
+Ratio empty: 10.5392
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #452
+
+## Demande de g├®n├®ration d'une carte de 46 lignes et 38 colonnes
+NoiseMap created nb: 89
+Ratio empty: 6.40732
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #453
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 41 colonnes
+NoiseMap created nb: 37
+Ratio empty: 12.5
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #454
+
+## Demande de g├®n├®ration d'une carte de 46 lignes et 55 colonnes
+NoiseMap created nb: 126
+Ratio empty: 6.08696
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #455
+
+## Demande de g├®n├®ration d'une carte de 16 lignes et 32 colonnes
+NoiseMap created nb: 28
+Ratio empty: 19.5312
+Nb components: 0
+-> Carte g├®n├®r├®e avec 16 lignes et 31 colonnes
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #456
+
+## Demande de g├®n├®ration d'une carte de 27 lignes et 32 colonnes
+NoiseMap created nb: 47
+Ratio empty: 14.1204
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #457
+
+## Demande de g├®n├®ration d'une carte de 48 lignes et 58 colonnes
+NoiseMap created nb: 136
+Ratio empty: 6.50144
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #458
+
+## Demande de g├®n├®ration d'une carte de 25 lignes et 29 colonnes
+NoiseMap created nb: 41
+Ratio empty: 9.65517
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #459
+
+## Demande de g├®n├®ration d'une carte de 18 lignes et 30 colonnes
+NoiseMap created nb: 31
+Ratio empty: 10.3704
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #460
+
+## Demande de g├®n├®ration d'une carte de 36 lignes et 38 colonnes
+NoiseMap created nb: 70
+Ratio empty: 9.06433
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #461
+
+## Demande de g├®n├®ration d'une carte de 21 lignes et 46 colonnes
+NoiseMap created nb: 51
+Ratio empty: 13.2505
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #462
+
+## Demande de g├®n├®ration d'une carte de 19 lignes et 32 colonnes
+NoiseMap created nb: 35
+Ratio empty: 12.9934
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #463
+
+## Demande de g├®n├®ration d'une carte de 39 lignes et 43 colonnes
+NoiseMap created nb: 82
+Ratio empty: 7.21527
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #464
+
+## Demande de g├®n├®ration d'une carte de 43 lignes et 47 colonnes
+NoiseMap created nb: 98
+Ratio empty: 7.12519
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #465
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 33 colonnes
+NoiseMap created nb: 68
+Ratio empty: 7.57576
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #466
+
+## Demande de g├®n├®ration d'une carte de 26 lignes et 35 colonnes
+NoiseMap created nb: 49
+Ratio empty: 10.4396
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #467
+
+## Demande de g├®n├®ration d'une carte de 24 lignes et 59 colonnes
+NoiseMap created nb: 74
+Ratio empty: 11.0876
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #468
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 30 colonnes
+NoiseMap created nb: 48
+Ratio empty: 10.3333
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #469
+
+## Demande de g├®n├®ration d'une carte de 47 lignes et 40 colonnes
+NoiseMap created nb: 96
+Ratio empty: 9.09575
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #470
+
+## Demande de g├®n├®ration d'une carte de 18 lignes et 34 colonnes
+NoiseMap created nb: 33
+Ratio empty: 8.66013
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #471
+
+## Demande de g├®n├®ration d'une carte de 44 lignes et 41 colonnes
+NoiseMap created nb: 89
+Ratio empty: 7.26164
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #472
+
+## Demande de g├®n├®ration d'une carte de 50 lignes et 46 colonnes
+NoiseMap created nb: 110
+Ratio empty: 8.47826
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #473
+
+## Demande de g├®n├®ration d'une carte de 17 lignes et 45 colonnes
+NoiseMap created nb: 40
+Ratio empty: 11.7647
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #474
+
+## Demande de g├®n├®ration d'une carte de 40 lignes et 36 colonnes
+NoiseMap created nb: 74
+Ratio empty: 9.16667
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #475
+
+## Demande de g├®n├®ration d'une carte de 25 lignes et 59 colonnes
+NoiseMap created nb: 79
+Ratio empty: 9.55932
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #476
+
+## Demande de g├®n├®ration d'une carte de 42 lignes et 54 colonnes
+NoiseMap created nb: 111
+Ratio empty: 9.08289
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #477
+
+## Demande de g├®n├®ration d'une carte de 41 lignes et 38 colonnes
+NoiseMap created nb: 80
+Ratio empty: 7.06033
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #478
+
+## Demande de g├®n├®ration d'une carte de 38 lignes et 43 colonnes
+NoiseMap created nb: 79
+Ratio empty: 7.71114
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #479
+
+## Demande de g├®n├®ration d'une carte de 21 lignes et 43 colonnes
+NoiseMap created nb: 47
+Ratio empty: 12.5138
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #480
+
+## Demande de g├®n├®ration d'une carte de 30 lignes et 57 colonnes
+NoiseMap created nb: 87
+Ratio empty: 9.18129
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #481
+
+## Demande de g├®n├®ration d'une carte de 28 lignes et 30 colonnes
+NoiseMap created nb: 47
+Ratio empty: 13.0952
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #482
+
+## Demande de g├®n├®ration d'une carte de 18 lignes et 39 colonnes
+NoiseMap created nb: 37
+Ratio empty: 7.97721
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #483
+
+## Demande de g├®n├®ration d'une carte de 25 lignes et 26 colonnes
+NoiseMap created nb: 37
+Ratio empty: 12.4615
+Nb components: 0
+-> OK
+
+# Analyse des dimensions
+-> OK
+
+# Analyse de la contigu├®t├® des r├®gions
+-> OK
+
+# Analyse de la conexit├® du graphe
+-> OK
+
+--- test #484
+
+## Demande de g├®n├®ration d'une carte de 37 lignes et 27 colonnes

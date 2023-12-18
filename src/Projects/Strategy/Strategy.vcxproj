@@ -15,10 +15,12 @@
     <ClInclude Include="..\..\Commun\IStrategyLib.h" />
     <ClInclude Include="..\..\Commun\library.h" />
     <ClInclude Include="src\interface_lib.h" />
+    <ClInclude Include="src\StrategieTest.h" />
     <ClInclude Include="src\Strategy.h" />
     <ClInclude Include="src\StrategyDummy.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\StrategieTest.cpp" />
     <ClCompile Include="src\strategy.cpp" />
     <ClCompile Include="src\StrategyDummy.cpp" />
   </ItemGroup>

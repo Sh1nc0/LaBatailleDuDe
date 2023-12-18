@@ -4,6 +4,7 @@
 #include "FastNoiseLite.h"
 #include <map>
 #include <iostream>
+#include "Voisin.h"
 
 float getRatioEmpty(unsigned int nbR, unsigned int nbC, Regions& regions){
     unsigned int nbCells = nbR * nbC;
@@ -65,16 +66,10 @@ NoiseMap::NoiseMap(unsigned int nbR, unsigned int nbC){
     for (const auto& region : regions) {
         for (const auto& cell : region) {
             std::vector<std::pair<unsigned, unsigned>> neighbors;
-            int dx[] = {-1, 1, 0, 0};
-            int dy[] = {0, 0, -1, 1};
-
-            for (int i = 0; i < 4; ++i) {
-                int newX = cell.first + dx[i];
-                int newY = cell.second + dy[i];
-
-                // Vérifier si le voisin est à l'intérieur des limites de la carte
-                if (newX >= 0 && newX < nbR && newY >= 0 && newY < nbC)
-                    neighbors.push_back({static_cast<unsigned>(newX), static_cast<unsigned>(newY)});
+            for(auto voisin : Voisin(cell.first, cell.second))
+            {
+                if (voisin.first < 0 || voisin.second < 0 || (voisin.first > nbR) || (voisin.second > nbC)) continue;
+                neighbors.push_back({ voisin.first, voisin.second });
             }
             cellNeighbors[cell] = neighbors;
         }

@@ -36,12 +36,18 @@
     <ClInclude Include="..\..\Commun\library.h">
       <Filter>Fichiers d%27en-tête\Commun</Filter>
     </ClInclude>
+    <ClInclude Include="src\StrategieTest.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\strategy.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="src\StrategyDummy.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StrategieTest.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
