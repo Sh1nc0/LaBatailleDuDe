@@ -12,7 +12,7 @@ SRegions* MapLoader::GenerateMap(unsigned int& r, unsigned int& c)
 	c = nbC;
 
 	Maps.insert(sregions);
-
+	delete map;
 	return(sregions);
 }
 
