@@ -1,6 +1,7 @@
 stages: # List of stages for jobs, and their order of execution
   - static-code-analysis
   - memory-leaks-analysis
+  - test
 
 cppcheck:
   image: ghcr.io/cnescatlab/cppcheck:latest
@@ -21,3 +22,12 @@ valgrind:
   script:
     - make runtester debug=1
     - valgrind bin/linux/debug/maptester_d -m bin/linux/debug/genmap_d.so --error-exitcode=1
+
+maptester:
+  image: ubuntu:latest
+  stages: test
+  allow_failure: true
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq make
+  script:
+    - make intensemaptester debug=1
