@@ -1,7 +1,6 @@
 stages: # List of stages for jobs, and their order of execution
   - static-code-analysis
-  - memory-leaks-analysis
-  - test
+  - analysis
 
 cppcheck:
   image: ghcr.io/cnescatlab/cppcheck:latest
@@ -13,7 +12,7 @@ cppcheck:
 valgrind:
   image: alpine
   stage: memory-leaks-analysis
-  allow_failure: false
+  allow_failure: 
   before_script:
     - apk update
     - apk add build-base gcc abuild binutils
@@ -25,7 +24,7 @@ valgrind:
 
 maptester:
   image: ubuntu:latest
-  stage: test
+  stage: analysis
   allow_failure: true
   before_script:
     - apt-get update -qq && apt-get install -y -qq make
