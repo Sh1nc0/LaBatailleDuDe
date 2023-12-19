@@ -30,6 +30,17 @@ StrategieTest::~StrategieTest()
     delete[] Map.cells;
 }
 
+bool isDangerous(const SCell& cell, unsigned int id, unsigned int diceAmount) {
+	for (unsigned i = 0; i < cell.nbNeighbors; ++i) {
+		if (cell.neighbors[i]->infos.owner != id && cell.neighbors[i]->infos.nbDices >= diceAmount) {
+			return true;
+		}
+	}
+	return false;
+}
+
+
+
 bool StrategieTest::PlayTurn(unsigned int gameTurn, const SGameState* state, STurn* turn)
 {
 	for (int i = 0; i < Map.nbCells; ++i) {
@@ -40,7 +51,10 @@ bool StrategieTest::PlayTurn(unsigned int gameTurn, const SGameState* state, STu
 		if (Map.cells[i].infos.owner == Id && Map.cells[i].infos.nbDices > 1) {
 			for (unsigned j = 0; j < Map.cells[i].nbNeighbors; ++j) {
 				if (Map.cells[i].neighbors[j]->infos.owner != Id && Map.cells[i].neighbors[j]->infos.nbDices < Map.cells[i].infos.nbDices) {
-					regionPlayable.push_back(&Map.cells[i]);
+
+					if (!isDangerous(*Map.cells[i].neighbors[j], Id, Map.cells[i].infos.nbDices - 1) && !isDangerous(Map.cells[i], Map.cells[i].infos.id, 1)) {
+						regionPlayable.push_back(&Map.cells[i]);
+					}
 					break;
 				}
 			}
