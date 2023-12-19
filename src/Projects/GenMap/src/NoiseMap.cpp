@@ -6,6 +6,7 @@
 #include <iostream>
 #include "MapLoader.h"
 #include "Voisin.h"
+#include <algorithm>
 
 float getRatioEmpty(unsigned int nbR, unsigned int nbC, Regions& regions){
     unsigned int nbCells = nbR * nbC;
@@ -40,17 +41,16 @@ int getNbComponents(std::map<std::pair<unsigned, unsigned>, std::vector<std::pai
     return nbComponents;
 }
 
-void NoiseMap::updateNeighbors(std::map<float, std::vector<std::pair<unsigned int, unsigned int> > > &m){
+void NoiseMap::updateNeighbors(const std::map<float, std::vector<std::pair<unsigned int, unsigned int>>>& m) {
     cellNeighbors.clear();
     for (const auto& region : m) {
         for (const auto& cell : region.second) {
             std::vector<std::pair<unsigned, unsigned>> neighbors;
-            for(auto voisin : Voisin(cell.first, cell.second))
-            {
-                if (voisin.first < 0 || voisin.second < 0 || (voisin.first > nbR) || (voisin.second > nbC)) continue;
-                neighbors.push_back({ voisin.first, voisin.second });
+            for (auto voisin : Voisin(cell.first, cell.second)) {
+                if (voisin.first < 0 || voisin.second < 0 || voisin.first > nbR || voisin.second > nbC) continue;
+                neighbors.emplace_back(voisin.first, voisin.second);
             }
-            cellNeighbors[cell] = neighbors;
+            cellNeighbors[cell] = std::move(neighbors);
         }
     }
 }
@@ -94,29 +94,33 @@ NoiseMap::NoiseMap(unsigned int nbR, unsigned int nbC){
 
     updateNeighbors(m);
 
-
     //Peupler la liste des régions
     for(auto it : m)
        regions.push_back(it.second);
 
-    // Supprimer les régions trop petites
-    for (auto it = regions.begin(); it != regions.end();){
-        if (it->size() < 5)
-            it = regions.erase(it);
-        else
-            ++it;
-    }
 
+    //Supprimer les régions trop petites pour atteindre le ratio cible
+    std::sort(regions.begin(), regions.end(), [](const std::vector<std::pair<unsigned, unsigned>>& a, const std::vector<std::pair<unsigned, unsigned>>& b) {
+        return a.size() < b.size();
+    });
+
+    const float ratioTarget = static_cast<float>((rand() % 3 + 1) / 10.0);
     int offset = 0;
-    while (getRatioEmpty(nbR, nbC, regions) < (float) ((rand() % 3 + 1) /10.0)) {
-        auto region = regions[offset];
+
+    while (getRatioEmpty(nbR, nbC, regions) < ratioTarget) {
+        auto region = std::move(regions[offset]);
         regions.erase(regions.begin() + offset);
 
-        updateNeighbors(regions);
+        auto oldNeighbors = cellNeighbors;
+        cellNeighbors.find(region[0])->second.clear();
+        for (auto cell : region) {
+            cellNeighbors.erase(cell);
+        }
 
-        if(getNbComponents(cellNeighbors) > 1){
-            regions.push_back(region);
+        if (getNbComponents(cellNeighbors) > 1) {
+            regions.push_back(std::move(region));
             offset++;
+            cellNeighbors = std::move(oldNeighbors);
         }
     }
 
