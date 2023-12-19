@@ -25,9 +25,11 @@ valgrind:
 
 maptester:
   image: ubuntu:latest
-  stages: test
+  stage: test
   allow_failure: true
   before_script:
     - apt-get update -qq && apt-get install -y -qq make
   script:
     - make intensemaptester debug=1
+
+
