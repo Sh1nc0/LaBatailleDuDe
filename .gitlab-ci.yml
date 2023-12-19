@@ -12,7 +12,7 @@ cppcheck:
 valgrind:
   image: alpine
   stage: analysis
-  allow_failure: 
+  allow_failure: true
   before_script:
     - apk update
     - apk add build-base gcc abuild binutils
@@ -27,7 +27,7 @@ maptester:
   stage: analysis
   allow_failure: true
   before_script:
-    - apt-get update -qq && apt-get install -y -qq make
+    - apt-get update -qq && apt-get install -y -qq make g++
   script:
     - make intensemaptester debug=1
 
