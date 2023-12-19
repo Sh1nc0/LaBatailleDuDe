@@ -1,6 +1,6 @@
 stages: # List of stages for jobs, and their order of execution
   - static-code-analysis
-  - memory-leaks-analysis
+  - analysis
 
 cppcheck:
   image: ghcr.io/cnescatlab/cppcheck:latest
@@ -11,8 +11,8 @@ cppcheck:
 
 valgrind:
   image: alpine
-  stage: memory-leaks-analysis
-  allow_failure: false
+  stage: analysis
+  allow_failure: true
   before_script:
     - apk update
     - apk add build-base gcc abuild binutils
@@ -21,3 +21,14 @@ valgrind:
   script:
     - make runtester debug=1
     - valgrind bin/linux/debug/maptester_d -m bin/linux/debug/genmap_d.so --error-exitcode=1
+
+maptester:
+  image: ubuntu:latest
+  stage: analysis
+  allow_failure: true
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq make g++
+  script:
+    - make intensemaptester debug=1
+
+

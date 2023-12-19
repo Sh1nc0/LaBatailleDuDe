@@ -8,6 +8,7 @@ SRegions* MapLoader::GenerateMap(unsigned int& r, unsigned int& c)
 	regions = map->getRegions();
 	unsigned int nbR, nbC;
 	SRegions* sregions = ConvertMap(regions, nbR, nbC);
+	map->getSize(nbR, nbC);
 	r = nbR;
 	c = nbC;
 
