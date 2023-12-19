@@ -34,7 +34,7 @@ runtester: build
 	@bin/$(DIR)/maptester$(SUFFIX) -m bin/$(DIR)/genmap$(SUFFIX).so
 
 intensemaptester: build
-	@bin/$(DIR)/maptester$(SUFFIX) -p -n 1000 -m bin/$(DIR)/genmap$(SUFFIX).so
+	@bin/$(DIR)/maptester$(SUFFIX) -n 500 -m bin/$(DIR)/genmap$(SUFFIX).so
 
 docker-build: 
 	@$(DOCKER) run -v $(WORKDIR):/app $(NAME) make debug=1
