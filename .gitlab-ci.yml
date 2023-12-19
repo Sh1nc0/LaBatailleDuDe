@@ -10,7 +10,7 @@ cppcheck:
     - cppcheck --enable=all --error-exitcode=1 .
 
 valgrind:
-  image: ubuntu
+  image: alpine
   stage: memory-leaks-analysis
   allow_failure: false
   before_script:
