@@ -24,6 +24,9 @@
     <ClCompile Include="src\strategy.cpp" />
     <ClCompile Include="src\StrategyDummy.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="strategie.md" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{9645BCCA-C6F9-4E4D-9953-67291543FF9C}</ProjectGuid>
