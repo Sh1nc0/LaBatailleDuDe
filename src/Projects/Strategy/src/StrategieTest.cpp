@@ -30,15 +30,14 @@ StrategieTest::~StrategieTest()
     delete[] Map.cells;
 }
 
-bool isDangerous(const SCell& cell, unsigned int id, unsigned int diceAmount) {
+bool isnotDangerous(const SCell& cell, unsigned int id, unsigned int diceAmount) {
 	for (unsigned i = 0; i < cell.nbNeighbors; ++i) {
-		if (cell.neighbors[i]->infos.owner != id && cell.neighbors[i]->infos.nbDices >= diceAmount) {
-			return true;
+		if (cell.neighbors[i]->infos.owner != id && cell.neighbors[i]->infos.nbDices > diceAmount) {
+			return false;
 		}
 	}
-	return false;
+	return true;
 }
-
 
 
 bool StrategieTest::PlayTurn(unsigned int gameTurn, const SGameState* state, STurn* turn)
@@ -50,17 +49,20 @@ bool StrategieTest::PlayTurn(unsigned int gameTurn, const SGameState* state, STu
 	for (int i = 0; i < Map.nbCells; ++i) {
 		if (Map.cells[i].infos.owner == Id && Map.cells[i].infos.nbDices > 1) {
 			for (unsigned j = 0; j < Map.cells[i].nbNeighbors; ++j) {
-				if (Map.cells[i].neighbors[j]->infos.owner != Id && Map.cells[i].neighbors[j]->infos.nbDices < Map.cells[i].infos.nbDices) {
-
-					if (!isDangerous(*Map.cells[i].neighbors[j], Id, Map.cells[i].infos.nbDices - 1) && !isDangerous(Map.cells[i], Map.cells[i].infos.id, 1)) {
+				//if (Map.cells[i].neighbors[j]->infos.owner != Id && Map.cells[i].neighbors[j]->infos.nbDices < Map.cells[i].infos.nbDices) {
+				if (Map.cells[i].neighbors[j]->infos.owner != Id && (Map.cells[i].infos.nbDices == 8 || Map.cells[i].neighbors[j]->infos.nbDices < Map.cells[i].infos.nbDices)) {  // on vérifie que la case voisine n'est pas à nous et que soit la case voisine contient moins de dé que nous soit on a 8 dés ce qui nous permet d'attaquer à coup sur
+					
+					if (isnotDangerous(*Map.cells[i].neighbors[j], Id, Map.cells[i].infos.nbDices - 1)) {//&& isnotDangerous(Map.cells[i], Map.cells[i].infos.id, 1)) {
 						regionPlayable.push_back(&Map.cells[i]);
-					}
-					break;
+						break;
+					}		
+				
+				
+			
 				}
 			}
 		}
 	}
-
 	if (regionPlayable.empty()) {
 		std::cout << "fin du tour pas de coup possible" << std::endl;
 		return false;
