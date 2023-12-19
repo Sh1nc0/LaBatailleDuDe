@@ -14,6 +14,8 @@ class NoiseMap{
     public:
         NoiseMap(unsigned int nbR, unsigned int nbC);
         Regions getRegions(){return regions;}
+        void updateNeighbors(std::map<float, std::vector<std::pair<unsigned, unsigned>>> &m);
+        void updateNeighbors(Regions &r);
         ~NoiseMap();
 
 };

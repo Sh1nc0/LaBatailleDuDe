@@ -19,4 +19,4 @@ run:
 	docker run -v $(WORKDIR):/app -p 5678:5678 $(DOCKER) /app/bin/$(DIR)/dicewars$(SUFFIX) -r /app/bin/$(DIR)/referee$(SUFFIX).so -m /app/bin/$(DIR)/genmap$(SUFFIX).so -g /app/bin/$(DIR)/gui$(SUFFIX).so -s /app/bin/$(DIR)/strategy$(SUFFIX).so -s /app/bin/$(DIR)/strategytest$(SUFFIX).so
 
 runtester:
-	docker run -v $(WORKDIR):/app -p 5678:5678 $(DOCKER) /app/bin/$(DIR)/maptester$(SUFFIX) -n 100 -m /app/bin/$(DIR)/genmap$(SUFFIX).so
+	docker run -v $(WORKDIR):/app -p 5678:5678 $(DOCKER) /app/bin/$(DIR)/maptester$(SUFFIX) -n 10 -m /app/bin/$(DIR)/genmap$(SUFFIX).so

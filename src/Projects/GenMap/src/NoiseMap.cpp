@@ -4,6 +4,7 @@
 #include "FastNoiseLite.h"
 #include <map>
 #include <iostream>
+#include "MapLoader.h"
 #include "Voisin.h"
 
 float getRatioEmpty(unsigned int nbR, unsigned int nbC, Regions& regions){
@@ -39,6 +40,35 @@ int getNbComponents(std::map<std::pair<unsigned, unsigned>, std::vector<std::pai
     return nbComponents;
 }
 
+void NoiseMap::updateNeighbors(std::map<float, std::vector<std::pair<unsigned int, unsigned int> > > &m){
+    cellNeighbors.clear();
+    for (const auto& region : m) {
+        for (const auto& cell : region.second) {
+            std::vector<std::pair<unsigned, unsigned>> neighbors;
+            for(auto voisin : Voisin(cell.first, cell.second))
+            {
+                if (voisin.first < 0 || voisin.second < 0 || (voisin.first > nbR) || (voisin.second > nbC)) continue;
+                neighbors.push_back({ voisin.first, voisin.second });
+            }
+            cellNeighbors[cell] = neighbors;
+        }
+    }
+}
+
+void NoiseMap::updateNeighbors(Regions &r){
+    cellNeighbors.clear();
+    for(const auto& region : regions){
+        for(const auto& cell : region){
+            std::vector<std::pair<unsigned, unsigned>> neighbors;
+            for(auto voisin : Voisin(cell.first, cell.second)){
+                if (voisin.first < 0 || voisin.second < 0 || (voisin.first > nbR) || (voisin.second > nbC)) continue;
+                neighbors.push_back({ voisin.first, voisin.second });
+            }
+            cellNeighbors[cell] = neighbors;
+        }
+    }
+}
+
 NoiseMap::NoiseMap(unsigned int nbR, unsigned int nbC){
     this->nbR = nbR;
     this->nbC = nbC;
@@ -62,18 +92,8 @@ NoiseMap::NoiseMap(unsigned int nbR, unsigned int nbC){
         }
     }
 
-    // Créer les voisins de chaque cellule
-    for (const auto& region : regions) {
-        for (const auto& cell : region) {
-            std::vector<std::pair<unsigned, unsigned>> neighbors;
-            for(auto voisin : Voisin(cell.first, cell.second))
-            {
-                if (voisin.first < 0 || voisin.second < 0 || (voisin.first > nbR) || (voisin.second > nbC)) continue;
-                neighbors.push_back({ voisin.first, voisin.second });
-            }
-            cellNeighbors[cell] = neighbors;
-        }
-    }
+    updateNeighbors(m);
+
 
     //Peupler la liste des régions
     for(auto it : m)
@@ -81,10 +101,23 @@ NoiseMap::NoiseMap(unsigned int nbR, unsigned int nbC){
 
     // Supprimer les régions trop petites
     for (auto it = regions.begin(); it != regions.end();){
-        if (it->size() < 15)
+        if (it->size() < 5)
             it = regions.erase(it);
         else
             ++it;
+    }
+
+    int offset = 0;
+    while (getRatioEmpty(nbR, nbC, regions) < (float) ((rand() % 3 + 1) /10.0)) {
+        auto region = regions[offset];
+        regions.erase(regions.begin() + offset);
+
+        updateNeighbors(regions);
+
+        if(getNbComponents(cellNeighbors) > 1){
+            regions.push_back(region);
+            offset++;
+        }
     }
 
     std::cout << "NoiseMap created nb: " << m.size()  << std::endl;
