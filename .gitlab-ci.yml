@@ -11,7 +11,7 @@ cppcheck:
 
 valgrind:
   image: alpine
-  stage: memory-leaks-analysis
+  stage: analysis
   allow_failure: 
   before_script:
     - apk update
