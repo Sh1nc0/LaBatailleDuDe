@@ -10,14 +10,12 @@ cppcheck:
     - cppcheck --enable=all --error-exitcode=1 .
 
 valgrind:
-  image: alpine
+  image: ubuntu
   stage: analysis
   allow_failure: true
   before_script:
-    - apk update
-    - apk add build-base gcc abuild binutils
-    - apk add cmake extra-cmake-modules
-    - apk add valgrind
+    - apt-get update -qq
+    - apt-get install -y -qq valgrind make build-essential
   script:
     - make runtester debug=1
     - valgrind bin/linux/debug/maptester_d -m bin/linux/debug/genmap_d.so --error-exitcode=1
