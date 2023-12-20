@@ -28,7 +28,7 @@ build:
 	@$(MAKE) -C $(BASEDIR)/Strategy
 
 run: build
-	@bin/$(DIR)/dicewars$(SUFFIX) -r bin/$(DIR)/referee$(SUFFIX).so -m bin/$(DIR)/genmap$(SUFFIX).so -g bin/$(DIR)/gui$(SUFFIX).so -s bin/$(DIR)/strategy$(SUFFIX).so -s bin/$(DIR)/strategytest$(SUFFIX).so
+	@bin/$(DIR)/dicewars$(SUFFIX) -r bin/$(DIR)/referee$(SUFFIX).so -m bin/$(DIR)/genmap$(SUFFIX).so -g bin/$(DIR)/gui$(SUFFIX).so -s bin/$(DIR)/strategytest$(SUFFIX).so -s bin/$(DIR)/strategy$(SUFFIX).so
 
 runtester: build
 	@bin/$(DIR)/maptester$(SUFFIX) -m bin/$(DIR)/genmap$(SUFFIX).so

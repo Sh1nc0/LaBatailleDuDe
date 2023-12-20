@@ -12,4 +12,7 @@
     <LocalDebuggerCommandArguments>-r "$(OutDir)Referee.dll" -m "$(OutDir)GenMap.dll" -g "$(OutDir)GuiStats.dll" -g "$(OutDir)Gui.dll" -s "$(OutDir)$(TargetFileName)" -s "$(OutDir)$(TargetFileName)"</LocalDebuggerCommandArguments>
     <LocalDebuggerWorkingDirectory>$(SolutionDir)</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
+  <PropertyGroup>
+    <ShowAllFiles>true</ShowAllFiles>
+  </PropertyGroup>
 </Project>
