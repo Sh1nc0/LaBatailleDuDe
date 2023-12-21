@@ -1,7 +1,7 @@
 #pragma once
 
 #include "../../../Commun/IStrategyLib.h"
-#include "StrategieTest.h"
+#include "StrategyBigBoy.h"
 
 class Strategy : public IStrategy
 {
@@ -13,5 +13,5 @@ public:
 	void EndGame(unsigned int idWinner);
 
 protected:
-	StrategieTest* Current;
+	StrategyBigBoy* Current;
 };
