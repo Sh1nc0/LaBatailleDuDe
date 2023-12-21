@@ -15,13 +15,13 @@
     <ClInclude Include="..\..\Commun\IStrategyLib.h" />
     <ClInclude Include="..\..\Commun\library.h" />
     <ClInclude Include="src\interface_lib.h" />
-    <ClInclude Include="src\StrategieTest.h" />
     <ClInclude Include="src\Strategy.h" />
+    <ClInclude Include="src\StrategyBigBoy.h" />
     <ClInclude Include="src\StrategyDummy.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\StrategieTest.cpp" />
     <ClCompile Include="src\strategy.cpp" />
+    <ClCompile Include="src\StrategyBigBoy.cpp" />
     <ClCompile Include="src\StrategyDummy.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -55,10 +55,14 @@
   <ImportGroup Label="Shared">
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"
+      Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')"
+      Label="LocalAppDataPlatform" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"
+      Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')"
+      Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
